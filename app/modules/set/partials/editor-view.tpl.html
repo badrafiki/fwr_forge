@@ -1,0 +1,57 @@
+<!-- Editor view for sets.. Should be ng-include'd and will share scope with parent controller -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Set Editor
+        <hr>
+      </h4>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-7">
+
+      <form class="form-horizontal" name="editorForm" ng-submit="Editor.close()">
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Id</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" ng-model="Editor.selected.id">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Description</label>
+          <div class="col-sm-10">
+            <description-editor map="Editor.selected"></description-editor>
+          </div>
+        </div>
+
+        <div class="form-group well">
+          <div class="col-sm-offset-8 col-sm-4">
+            <div class="pull-right">
+              <button class="btn btn-primary" type="submit">Done</button>
+              <button class="btn btn-default" type="button" ng-click="Editor.dismiss()" ng-show="Editor.mode == 'add'">Cancel</button>
+            </div>
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+
+    <div class="col-md-5">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong>Preview</strong>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            <li ng-repeat="descriptor in Editor.selected.description.readable track by $index">{{descriptor}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

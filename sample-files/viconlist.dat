@@ -1,0 +1,6537 @@
+1722	//total number of virtual icons in list
+1	// mouse icon select (number of layers)
+0	// (icon index of first layer)
+1	// mouse icon attack
+1
+1	// mouse icon power target
+2
+1	// reserved generic icon 1
+3
+1	// craft medicine skill
+4
+1	// craft weapon skill
+5
+1	// detect hidden skill
+6
+1	// evaluate opponent skill
+7
+1	// identify skill
+8
+1	// stealing skill
+9
+1	// Resuscitation Skill
+10
+1	// Stealth Skill
+11
+1	// Sprint skill
+12
+1	// reserved skill icon 1
+13
+1	// reserved skill icon 2
+14
+1	// Fist
+15
+1	// Chi Dmg
+16
+1	// Fire
+17
+1	// Poison
+18
+1	// Cold
+19
+1	// Lightning
+20
+1	// Slow
+21
+1	// Stun
+22
+1	// Attack
+23
+1	// Defense
+24
+1	// Heal
+25
+1	// Chi
+26
+1	// bolt normal
+27
+1	// melee normal
+28
+1	// range normal
+29
+1	// wide normal
+30
+1	// cone normal
+31
+1	// melee area normal
+32
+1	// range area normal
+33
+1	// bolt constant
+34
+1	// melee constant
+35
+1	// range constant
+36
+1	// wide constant
+37
+1	// cone constant
+38
+1	// melee area constant
+39
+1	// range area constant
+40
+1	// bolt resist
+41
+1	// melee resist
+42
+1	// range resist
+43
+1	// wide resist
+44
+1	// cone resist
+45
+1	// melee area resist
+46
+1	// range area resist
+47
+1	// bolt immune
+48
+1	// melee immune
+49
+1	// range immune
+50
+1	// wide immune
+51
+1	// cone immune
+52
+1	// melee area immune
+53
+1	// range area immune
+54
+1	// melee buff
+55
+1	// range buff
+56
+1	// wide buff
+57
+1	// cone buff
+58
+1	// melee area buff
+59
+1	// range area buff
+60
+1	// melee debuff
+61
+1	// range debuff
+62
+1	// wide debuff
+63
+1	// cone debuff
+64
+1	// melee area debuff
+65
+1	// range area debuff
+66
+1	// saber
+67
+1	// unarmed
+68
+1	// staff
+69
+1	// sword
+70
+1	// bow
+71
+1	// damage buff
+72
+1	// reserved power icon
+73
+1	// reserved power icon
+74
+1	// reserved power icon
+75
+1	// reserved power icon
+76
+1	// reserved power icon
+77
+1	// reserved power icon
+78
+1	// reserved power icon
+79
+1	// reserved power icon
+80
+1	// reserved power icon
+81
+1	// reserved power icon
+82
+1	// reserved power icon
+83
+1	// reserved power icon
+84
+1	// reserved power icon
+85
+1	// reserved power icon
+86
+1	// reserved power icon
+87
+1	// reserved power icon
+88
+1	// reserved power icon
+89
+1	// reserved power icon
+90
+1	// reserved power icon
+91
+1	// reserved power icon
+92
+1	// reserved power icon
+93
+1	// reserved power icon
+94
+1	// reserved power icon
+95
+1	// reserved power icon
+96
+1	// reserved power icon
+97
+1	// reserved power icon
+98
+1	// reserved power icon
+99
+1	// reserved power icon
+100
+1	// reserved power icon
+101
+1	// reserved power icon
+102
+1	// reserved power icon
+103
+1	// reserved power icon
+104
+1	// reserved power icon
+105
+1	// reserved power icon
+106
+1	// reserved power icon
+107
+1	// reserved power icon
+108
+1	// reserved power icon
+109
+1	// reserved power icon
+110
+1	// reserved power icon
+111
+1	// reserved power icon
+112
+1	// reserved power icon
+113
+1	// reserved power icon
+114
+1	// reserved power icon
+115
+1	// reserved power icon
+116
+1	// reserved power icon
+117
+1	// reserved power icon
+118
+1	// reserved power icon
+119
+1	// Generic Amulet 1
+120
+1	// Generic Amulet 2
+121
+1	// Generic Amulet 3
+122
+1	// Generic Amulet 4
+123
+1	// Generic Amulet 5
+124
+1	// Generic Amulet 6
+125
+1	// Generic Amulet 7
+126
+1	// Generic Amulet 8
+127
+1	// Generic Amulet 9
+128
+1	// Generic Amulet 10
+129
+1	// Generic Bracers 1
+130
+1	// Generic Bracers 2
+131
+1	// Generic Bracers 3
+132
+1	// Generic Bracers 4
+133
+1	// Generic Bracers 5
+134
+1	// Generic Glove 1 
+135
+1	// Generic Glove 2 
+136
+1	// Generic Glove 3
+137
+1	// Generic Glove 4
+138
+1	// Generic Glove 5
+139
+1	// Generic Boots 1 
+140
+1	// Generic Boots 2 
+141
+1	// Generic Boots 3
+142
+1	// Generic Boots 4
+143
+1	// Generic Boots 5
+144
+1	// Generic Boots 6
+145
+1	// Generic Boots 7
+146
+1	// Generic Boots 8
+147
+1	// Generic Boots 9
+148
+1	// Generic Boots 10
+149
+1	// Generic Ring 1 
+150
+1	// Generic Ring 2
+151
+1	// Generic Ring 3
+152
+1	// Generic Ring 4
+153
+1	// Generic Ring 5
+154
+1	// Generic Ring 6
+155
+1	// Generic Ring 7
+156
+1	// Generic Ring 8
+157
+1	// Generic Ring 9
+158
+1	// Generic Ring 10
+159
+1	// Generic Bow 1 
+160
+1	// Generic Bow 2 
+161
+1	// Generic Bow 3
+162
+1	// Generic Bow 4
+163
+1	// Generic Bow 5
+164
+1	// Generic Saber 1 
+165
+1	// Generic Saber 2 
+166
+1	// Generic Saber 3
+167
+1	// Generic Saber 4
+168
+1	// Generic Saber 5
+169
+1	// Generic Saber 6
+170
+1	// Generic Saber 7
+171
+1	// Generic Saber 8
+172
+1	// Generic Saber 9
+173
+1	// Generic Saber 10
+174
+1	// Generic Staff 1 
+175
+1	// Generic Staff 2
+176
+1	// Generic Staff 3
+177
+1	// Generic Staff 4
+178
+1	// Generic Staff 5
+179
+1	// Generic Spear 1 
+180
+1	// Generic Spear 2
+181
+1	// Generic Spear 3
+182
+1	// Generic Spear 4
+183
+1	// Generic Spear 5
+184
+1	// Generic Sword 1 
+185
+1	// Generic Sword 2 
+186
+1	// Generic Sword 3
+187
+1	// Generic Sword 4
+188
+1	// Generic Sword 5
+189
+1	// Generic Sword 6
+190
+1	// Generic Sword 7
+191
+1	// Generic Sword 8
+192
+1	// Generic Sword 9
+193
+1	// Generic Sword 10
+194
+1	// Food Stuff 1 
+195
+1	// Food Stuff 2
+196
+1	// Food Stuff 3
+197
+1	// Food Stuff 4
+198
+1	// Food Stuff 5
+199
+1	// Generic Herb 1 
+200
+1	// Generic Herb 2 
+201
+1	// Generic Herb 3
+202
+1	// Generic Herb 4 
+203
+1	// Generic Herb 5 
+204
+1	// Generic Herb 6 
+205
+1	// Generic Herb 7 
+206
+1	// Generic Herb 8
+207
+1	// Generic Herb 9
+208
+1	// Generic Herb 10
+209
+1	// Generic Medicine 1 
+210
+1	// Generic Medicine 2 
+211
+1	// Generic Medicine 3
+212
+1	// Generic Medicine 4
+213
+1	// Generic Medicine 5
+214
+1	// Generic Medicine 6
+215
+1	// Generic Medicine 7
+216
+1	// Generic Medicine 8
+217
+1	// Generic Medicine 9
+218
+1	// Generic Medicine 10
+219
+1	// Generic Weapon Component 1 
+220
+1	// Generic Weapon Component 2
+221
+1	// Generic Weapon Component 3
+222
+1	// Generic Weapon Component 4
+223
+1	// Generic Weapon Component 5
+224
+1	// Generic Weapon Component 6
+225
+1	// Generic Weapon Component 7
+226
+1	// Generic Weapon Component 8
+227
+1	// Generic Weapon Component 9
+228
+1	// Generic Weapon Component 10
+229
+1	// Generic Male Clothes 1
+230
+1	// Generic Male Clothes 2
+231
+1	// Generic Male Clothes 3
+232
+1	// Generic Female Clothes 1
+233
+1	// Generic Female Clothes 2
+234
+1	// Generic Female Clothes 3
+235
+1	// Generic Mask 1
+236
+1	// Generic Mask 2
+237
+1	// Generic Shoulder Pads 1
+238
+1	// Generic Shoulder Pads 2
+239
+1	// Generic Misc Item 1 ?Book 
+240
+1	// Generic Misc Item 2 ?Scroll 
+241
+1	// Generic Misc Item 3 ?Jade Bracelet
+242
+1	// Generic Misc Item 4 ?Necklace
+243
+1	// Generic Misc Item 5 ?Gem
+244
+1	// Generic Misc Item 6 ?Hairpin
+245
+1	// Generic Misc Item 7 ?Figurine 
+246
+1	// Generic Misc Item 8 ?Charm
+247
+1	// Generic Misc Item 9 ?Flute 
+248
+1	// Generic Misc Item 10 ?Small Embroidered Pouch 
+249
+1	// Generic Unarmed Attack Slot 
+250
+1	// Generic Token ?Plaque 
+251
+1	// Generic Medicine Craft Tool 
+252
+1	// Generic Weapon Craft Tool 
+253
+1	// Generic Question Mark Symbol
+254
+1	// Generic Pouch
+255
+1	// Generic Head
+256
+1	// Generic Fur Pelt
+257
+1	// reserve generic item icon 1
+258
+1	// reserve generic item icon 2
+259
+1	// very rare legendary item 1
+260
+1	// very rare legendary item 2
+261
+1	// very rare legendary item 3
+262
+1	// very rare legendary item 4
+263
+1	// very rare legendary item 5
+264
+1	// very rare legendary item 6
+265
+1	// very rare legendary item 7
+266
+1	// very rare legendary item 8
+267
+1	// very rare legendary item 9
+268
+1	// very rare legendary item 10
+269
+1	// very rare legendary item 11
+270
+1	// very rare legendary item 12
+271
+1	// very rare legendary item 13
+272
+1	// very rare legendary item 14
+273
+1	// very rare legendary item 15
+274
+1	// very rare legendary item 16
+275
+1	// very rare legendary item 17
+276
+1	// very rare legendary item 18
+277
+1	// very rare legendary item 19
+278
+1	// very rare legendary item 20
+279
+1	// ultra rare legendary item 1
+280
+1	// ultra rare legendary item 2
+281
+1	// ultra rare legendary item 3
+282
+1	// ultra rare legendary item 4
+283
+1	// ultra rare legendary item 5
+284
+1	// ultra rare legendary item 6
+285
+1	// ultra rare legendary item 7
+286
+1	// ultra rare legendary item 8
+287
+1	// ultra rare legendary item 9
+288
+1	// ultra rare legendary item 10
+289
+1	// ultra rare legendary item 11
+290
+1	// ultra rare legendary item 12
+291
+1	// ultra rare legendary item 13
+292
+1	// ultra rare legendary item 14
+293
+1	// ultra rare legendary item 15
+294
+1	// ultra rare legendary item 16
+295
+1	// ultra rare legendary item 17
+296
+1	// ultra rare legendary item 18
+297
+1	// ultra rare legendary item 19
+298
+1	// ultra rare legendary item 20
+299
+1	// unique legendary item 1
+300
+1	// unique legendary item 2
+301
+1	// unique legendary item 3
+302
+1	// unique legendary item 4
+303
+1	// unique legendary item 5
+304
+1	// unique legendary item 6
+305
+1	// unique legendary item 7
+306
+1	// unique legendary item 8
+307
+1	// unique legendary item 9
+308
+1	// unique legendary item 10
+309
+1	// unique legendary item 11
+310
+1	// unique legendary item 12
+311
+1	// unique legendary item 13
+312
+1	// unique legendary item 14
+313
+1	// unique legendary item 15
+314
+1	// unique legendary item 16
+315
+1	// unique legendary item 17
+316
+1	// unique legendary item 18
+317
+1	// unique legendary item 19
+318
+1	// unique legendary item 20
+319
+1	// reserve item icon
+320
+1	// reserve item icon
+321
+1	// reserve item icon
+322
+1	// reserve item icon
+323
+1	// reserve item icon
+324
+1	// reserve item icon
+325
+1	// reserve item icon
+326
+1	// reserve item icon
+327
+1	// reserve item icon
+328
+1	// reserve item icon
+329
+1	// reserve item icon
+330
+1	// reserve item icon
+331
+1	// reserve item icon
+332
+1	// reserve item icon
+333
+1	// reserve item icon
+334
+1	// reserve item icon
+335
+1	// reserve item icon
+336
+1	// reserve item icon
+337
+1	// reserve item icon
+338
+1	// reserve item icon
+339
+1	// reserve item icon
+340
+1	// reserve item icon
+341
+1	// reserve item icon
+342
+1	// reserve item icon
+343
+1	// reserve item icon
+344
+1	// reserve item icon
+345
+1	// reserve item icon
+346
+1	// reserve item icon
+347
+1	// reserve item icon
+348
+1	// reserve item icon
+349
+1	// reserve item icon
+350
+1	// reserve item icon
+351
+1	// reserve item icon
+352
+1	// reserve item icon
+353
+1	// reserve item icon
+354
+1	// reserve item icon
+355
+1	// reserve item icon
+356
+1	// reserve item icon
+357
+1	// reserve item icon
+358
+1	// reserve item icon
+359
+1	// reserve item icon
+360
+1	// reserve item icon
+361
+1	// reserve item icon
+362
+1	// reserve item icon
+363
+1	// reserve item icon
+364
+1	// reserve item icon
+365
+1	// reserve item icon
+366
+1	// reserve item icon
+367
+1	// reserve item icon
+368
+1	// reserve item icon
+369
+1	// reserve item icon
+370
+1	// reserve item icon
+371
+1	// reserve item icon
+372
+1	// reserve item icon
+373
+1	// reserve item icon
+374
+1	// reserve item icon
+375
+1	// reserve item icon
+376
+1	// reserve item icon
+377
+1	// reserve item icon
+378
+1	// reserve item icon
+379
+1	// reserve item icon
+380
+1	// reserve item icon
+381
+1	// reserve item icon
+382
+1	// reserve item icon
+383
+1	// reserve item icon
+384
+1	// reserve item icon
+385
+1	// reserve item icon
+386
+1	// reserve item icon
+387
+1	// reserve item icon
+388
+1	// reserve item icon
+389
+1	// reserve item icon
+390
+1	// reserve item icon
+391
+1	// reserve item icon
+392
+1	// reserve item icon
+393
+1	// reserve item icon
+394
+1	// reserve item icon
+395
+1	// reserve item icon
+396
+1	// reserve item icon
+397
+1	// reserve item icon
+398
+1	// reserve item icon
+399
+1	// reserve item icon
+400
+1	// reserve item icon
+401
+1	// reserve item icon
+402
+1	// reserve item icon
+403
+1	// reserve item icon
+404
+1	// reserve item icon
+405
+1	// reserve item icon
+406
+1	// reserve item icon
+407
+1	// reserve item icon
+408
+1	// reserve item icon
+409
+1	// reserve item icon
+410
+1	// reserve item icon
+411
+1	// reserve item icon
+412
+1	// reserve item icon
+413
+1	// reserve item icon
+414
+1	// reserve item icon
+415
+1	// reserve item icon
+416
+1	// reserve item icon
+417
+1	// reserve item icon
+418
+1	// reserve item icon
+419
+1	// reserve item icon
+420
+1	// reserve item icon
+421
+1	// reserve item icon
+422
+1	// reserve item icon
+423
+1	// reserve item icon
+424
+1	// reserve item icon
+425
+1	// reserve item icon
+426
+1	// reserve item icon
+427
+1	// reserve item icon
+428
+1	// reserve item icon
+429
+1	// reserve item icon
+430
+1	// reserve item icon
+431
+1	// reserve item icon
+432
+1	// reserve item icon
+433
+1	// reserve item icon
+434
+1	// reserve item icon
+435
+1	// reserve item icon
+436
+1	// reserve item icon
+437
+1	// reserve item icon
+438
+1	// reserve item icon
+439
+1	// reserve item icon
+440
+1	// reserve item icon
+441
+1	// reserve item icon
+442
+1	// reserve item icon
+443
+1	// reserve item icon
+444
+1	// reserve item icon
+445
+1	// reserve item icon
+446
+1	// reserve item icon
+447
+1	// reserve item icon
+448
+1	// reserve item icon
+449
+4	// *Bow Buff Fire Dmg Effect, Self
+71
+17
+28
+55
+4	// *Bow Buff Cold Dmg Effect, Self
+71
+19
+28
+55
+4	// *Bow Buff Poison Dmg Effect, Self
+71
+18
+28
+55
+4	// *Bow Buff Lightning Dmg Effect, Self
+71
+20
+28
+55
+4	// *Bow Buff Physical Dmg Effect, Self
+71
+15
+28
+55
+4	// *Bow Buff Chi Dmg Effect, Self
+71
+16
+28
+55
+4	// *Bow Buff Fire Dmg Eff, Self, Area
+71
+17
+32
+59
+4	// *Bow Buff Cold Dmg Eff, Self, Area
+71
+19
+32
+59
+4	// *Bow Buff Poison Dmg Eff, Self, Area
+71
+18
+32
+59
+4	// *Bow Buff Lightning Dmg Eff, Self, Area 
+71
+20
+32
+59
+4	// *Bow Buff Physical Dmg Eff, Self, Area
+71
+15
+32
+59
+4	// *Bow Buff Chi Dmg Eff, Self, Area
+71
+16
+32
+59
+4	// *Bow Inst HP healing, Range
+71
+25
+29
+56
+4	// *Bow Inst Chi Rejuvenating, Range
+71
+26
+29
+56
+4	// *Bow Buff Attack Effect, Range
+71
+23
+29
+56
+4	// *Bow Buff Defense Effect, Range
+71
+24
+29
+56
+4	// *Bow Buff Fire Dmg Effect, Range
+71
+17
+29
+56
+4	// *Bow Buff Cold Dmg Effect, Range
+71
+19
+29
+56
+4	// *Bow Buff Poison Dmg Effect, Range
+71
+18
+29
+56
+4	// *Bow Buff Lightning Dmg Effect, Rng
+71
+20
+29
+56
+4	// *Bow Buff Physical Dmg Effect, Rng
+71
+15
+29
+56
+4	// *Bow Buff Chi Dmg Effect, Range
+71
+16
+29
+56
+4	// *Bow Buff Fire Resist, Range
+71
+17
+43
+56
+4	// *Bow Buff Cold Resist, Range
+71
+19
+43
+56
+4	// *Bow Buff Poison Resist, Range
+71
+18
+43
+56
+4	// *Bow Buff Lightning Resist, Range
+71
+20
+43
+56
+4	// *Bow Buff Physical Resist, Range
+71
+15
+43
+56
+4	// *Bow Stun effect, Range
+71
+22
+29
+62
+4	// *Bow Slow effect, Range
+71
+21
+29
+62
+4	// *Bow Const Fire Dmg, Range
+71
+17
+36
+62
+4	// *Bow Const Cold Dmg, Range
+71
+19
+36
+62
+4	// *Bow Const Poison Dmg, Range
+71
+18
+36
+62
+4	// *Bow Const Lightning Dmg, Range
+71
+20
+36
+62
+4	// *Bow Const Physical Dmg, Range
+71
+15
+36
+62
+4	// *Bow Const Chi Dmg, Range
+71
+16
+36
+62
+4	// *Bow Reduce Attack, Range
+71
+23
+29
+62
+4	// *Bow Reduce Defense, Range
+71
+24
+29
+62
+4	// *Bow Reduce Max Chi, Range
+71
+16
+29
+62
+4	// *Bow Fire Vuln, Range
+71
+17
+43
+62
+4	// *Bow Cold Vuln, Range
+71
+19
+43
+62
+4	// *Bow Poison Vuln, Range
+71
+18
+43
+62
+4	// *Bow Lightning Vuln, Range
+71
+20
+43
+62
+4	// *Bow Physical Vuln, Range
+71
+15
+43
+62
+4	// *Bow Inst Fire Dmg, Range
+71
+17
+29
+62
+4	// *Bow Inst Cold Dmg, Range
+71
+19
+29
+62
+4	// *Bow Inst Poison Dmg, Range
+71
+18
+29
+62
+4	// *Bow Inst Lightning Dmg, Range
+71
+20
+29
+62
+4	// *Bow Inst Physical Dmg, Range
+71
+15
+29
+62
+4	// *Bow Inst Chi Dmg, Range
+71
+16
+29
+62
+4	// *Bow Inst HP healing, Range Area
+71
+25
+33
+60
+4	// *Bow Inst Chi Rejuvenating, Rng Ar
+71
+26
+33
+60
+4	// *Bow Buff Attack Effect, Rng Ar
+71
+23
+33
+60
+4	// *Bow Buff Defense Effect, Rng Area
+71
+24
+33
+60
+4	// *Bow Buff Fire Dmg Effect, Rng Ar
+71
+17
+33
+60
+4	// *Bow Buff Cold Dmg Effect, Rng Ar
+71
+19
+33
+60
+4	// *Bow Buff Poison Dmg Eff, Rng Ar
+71
+18
+33
+60
+4	// *Bow Buff Lightning Dmg Eff, Rng Ar
+71
+20
+33
+60
+4	// *Bow Buff Physical Dmg Eff, Rng Ar
+71
+15
+33
+60
+4	// *Bow Buff Chi Dmg Effect, Rng Area
+71
+16
+33
+60
+4	// *Bow Buff Fire Resist, Range Area
+71
+17
+47
+60
+4	// *Bow Buff Cold Resist, Range Area
+71
+19
+47
+60
+4	// *Bow Buff Poison Resist, Range Area
+71
+18
+47
+60
+4	// *Bow Buff Lightning Resist, Rng Area
+71
+20
+47
+60
+4	// *Bow Buff Physical Resist, Rng Area
+71
+15
+47
+60
+4	// *Bow Stun effect, Range Area
+71
+22
+33
+66
+4	// *Bow Slow effect, Range Area
+71
+21
+33
+66
+4	// *Bow Const Fire Dmg, Range Area
+71
+17
+40
+66
+4	// *Bow Const Cold Dmg, Range Area
+71
+19
+40
+66
+4	// *Bow Const Poison Dmg, Rng Area
+71
+18
+40
+66
+4	// *Bow Const Lightning Dmg, Rng Ar
+71
+20
+40
+66
+4	// *Bow Const Physical Dmg, Rng Area
+71
+15
+40
+66
+4	// *Bow Const Chi Dmg, Range Area
+71
+16
+40
+66
+4	// *Bow Reduce Attack, Range Area
+71
+23
+33
+66
+4	// *Bow Reduce Defense, Range Area
+71
+24
+33
+66
+4	// *Bow Reduce Max Chi, Range Area
+71
+16
+33
+66
+4	// *Bow Fire Vuln, Range Area
+71
+17
+47
+66
+4	// *Bow Cold Vuln, Range Area
+71
+19
+47
+66
+4	// *Bow Poison Vuln, Range Area
+71
+18
+47
+66
+4	// *Bow Lightning Vuln, Range Area
+71
+20
+47
+66
+4	// *Bow Physical Vuln, Range Area
+71
+15
+47
+66
+4	// *Bow Inst Fire Dmg, Range Area
+71
+17
+33
+66
+4	// *Bow Inst Cold Dmg, Range Area
+71
+19
+33
+66
+4	// *Bow Inst Poison Dmg, Range Area
+71
+18
+33
+66
+4	// *Bow Inst Lightning Dmg, Rng Area
+71
+20
+33
+66
+4	// *Bow Inst Physical Dmg, Range Area
+71
+15
+33
+66
+4	// *Bow Inst Chi Dmg, Range Area
+71
+16
+33
+66
+4	// *Bow Immune Fire
+71
+17
+49
+55
+4 	// *Bow Immune Cold
+71
+19
+49
+55
+4	// *Bow Immune Poison
+71
+18
+49
+55
+4	// *Bow Immune Lightning
+71
+20
+49
+55
+4	// *Bow Immune Physical
+71
+15
+49
+55
+4	// *Bow Immune ChiDmg
+71
+16
+49
+55
+4	// *Bow Immune Slow
+71
+21
+49
+55
+4	// *Bow Immune Stun
+71
+22
+49
+55
+4	// *Bow Inst HP healing, Self
+71
+25
+28
+55
+4	// *Bow Inst Chi Rejuvenation, Self
+71
+26
+28
+55
+4	// *Bow Buff Attack Effect, Self
+71
+23
+28
+55
+4	// *Bow Buff Defense Effect, Self
+71
+24
+28
+55
+4	// *Bow Buff Fire Resist, Self
+71
+17
+42
+55
+4	// *Bow Buff Cold Resist, Self
+71
+19
+42
+55
+4	// *Bow Buff Poison Resist, Self
+71
+18
+42
+55
+4	// *Bow Buff Lightning Resist, Self
+71
+20
+42
+55
+4	// *Bow Buff Physical Resist, Slef
+71
+15
+42
+55
+4	// *Bow Stun effect, Melee
+71
+22
+28
+61
+4	// *Bow Slow effect, Melee
+71
+21
+28
+61
+4	// *Bow Const Fire Dmg, Melee
+71
+17
+35
+61
+4	// *Bow Const Cold Dmg, Melee
+71
+19
+35
+61
+4	// *Bow Const Poison Dmg, Melee
+71
+18
+35
+61
+4	// *Bow Const Lightning Dmg, Melee
+71
+20
+35
+61
+4	// *Bow Const Physical Dmg, Melee
+71
+15
+35
+61
+4	// *Bow Const Chi Dmg, Melee
+71
+16
+35
+61
+4	// *Bow Debuff/Reduce Attack, Melee
+71
+23
+28
+61
+4	// *Bow Debuff/Reduce Defense, Melee
+71
+24
+28
+61
+4	// *Bow Debuff/Reduce Max Chi, Melee
+71
+16
+28
+61
+4	// *Bow Debuff/Fire Vuln, Melee
+71
+17
+42
+61
+4	// *Bow Debuff/Cold Vuln, Melee
+71
+19
+42
+61
+4	// *Bow Debuff/Poison Vuln, Melee
+71
+18
+42
+61
+4	// *Bow Debuff/Lightning Vuln, Melee
+71
+20
+42
+61
+4	// *Bow Debuff Physical Vuln, Melee
+71
+15
+42
+61	
+4	// *Bow Inst Fire Dmg, Melee
+71
+17
+28
+61
+4	// *Bow Inst Cold Dmg, Melee
+71
+19
+28
+61
+4	// *Bow Inst Poison Dmg, Melee
+71
+18
+28
+61
+4	// *Bow Inst Lightning Dmg, Melee
+71
+20
+28
+61
+4	// *Bow Inst Physical Dmg, Melee
+71
+15
+28
+61
+4	// *Bow Inst Chi Dmg, Melee
+71
+16
+28
+61
+4	// *Bow Inst HP healing, Self, Area
+71
+25
+32
+59
+4	// *Bow Inst Chi Rejuvenating, Self, Area
+71
+26
+32
+59
+4	// *Bow Buff Attack Eff, Self, Area
+71
+23
+32
+59
+4	// *Bow Buff Defense Eff, Self, Area
+71
+24
+32
+59
+4	// *Bow Buff Fire Resist, Self, Area
+71
+17
+46
+59
+4	// *Bow Buff Cold Resist, Self, Area
+71
+19
+46
+59
+4	// *Bow Buff Poison Resist, Self, Area
+71
+18
+46
+59
+4	// *Bow Buff Lightning Resist, Self, Area
+71
+20
+46
+59
+4	// *Bow Buff Physical Resist, Self, Area
+71
+15
+46
+59
+4	// *Bow Stun Effect, Local Area
+71
+22
+32
+65
+4	// *Bow SLow effect, Local Area
+71
+21
+32
+65
+4	// *Bow Const Fire Dmg, Local Area
+71
+17
+39
+65
+4	// *Bow Const Cold Dmg, Local Area
+71
+19
+39
+65
+4	// *Bow Const Poison Dmg, Local Area
+71
+18
+39
+65
+4	// *Bow Const Lightning Dmg, Local Area
+71
+20
+39
+65
+4	// *Bow Const Physical Dmg, Local Area
+71
+15
+39
+65
+4	// *Bow Const Chi Dmg, Local Area
+71
+16
+39
+65
+4	// *Bow Reduce Attack, Local Area
+71
+23
+32
+65
+4	// *Bow Reduce Defense, Local Area
+71
+24
+32
+65
+4	// *Bow Reduce Max Chi, Local Area
+71
+16
+32
+65
+4	// *Bow Fire Vuln, Local Area
+71
+17
+46
+65
+4	// *Bow Cold Vuln, Local Area
+71
+19
+46
+65
+4	// *Bow Poison Vuln, Local Area
+71
+18
+46
+65
+4	// *Bow Lightning Vuln, Local Area
+71
+20
+46
+65
+4	// *Bow Physical Vuln, Local Area
+71
+15
+46
+65
+4	// *Bow Inst Fire Dmg, Local Area
+71
+17
+32
+65
+4	// *Bow Inst Cold Dmg, Local Area
+71
+19
+32
+65
+4	// *Bow Inst Poison Dmg, Local Area
+71
+18
+32
+65
+4	// *Bow Inst Lightning Dmg, Local Area
+71
+20
+32
+65
+4	// *Bow Inst Physical Dmg, Local Area
+71
+15
+32
+65
+4	// *Bow Inst Chi Dmg, Local Area
+71
+16
+32
+65
+3	// *Bow Stun effect, Bolt
+71
+22
+27
+3	// *Bow Slow effect, Bolt
+71
+21
+27
+3	// *Bow Inst Fire Dmg, Bolt
+71
+17
+27
+3	// *Bow Inst Cold Dmg, Bolt
+71
+19
+27
+3	// *Bow Inst Poison Dmg, Bolt
+71
+18
+27
+3	// *Bow Inst Lightning Dmg, Bolt
+71
+20
+27
+3	// *Bow Inst Physical Dmg, Bolt
+71
+15
+27
+3	// *Bow Inst Chi Dmg, Bolt
+71
+16
+27
+4	// *Bow Stun effect, Slash
+71
+22
+30
+63
+4	// *Bow Slow effect, Slash
+71
+21
+30
+63
+4	// *Bow Inst Fire Dmg, Slash
+71
+17
+30
+63
+4	// *Bow Inst Cold Dmg, Slash
+71
+19
+30
+63
+4	// *Bow Inst Poison Dmg, Slash
+71
+18
+30
+63
+4	// *Bow Inst Lightning Dmg, Slash
+71
+20
+30
+63
+4	// *Bow Inst Physical Dmg, Slash
+71
+15
+30
+63
+4	// *Bow Inst Chi Dmg, Slash
+71
+16
+30
+63
+4	// *Bow Stun effect, Cube
+71
+22
+31
+64	
+4	// *Bow Slow effect, Cube
+71
+21
+31
+64
+4	// *Bow Inst Fire Dmg, Cube
+71
+17
+31
+64
+4	// *Bow Inst Cold Dmg, Cube
+71
+19
+31
+64
+4	// *Bow Inst Poison Dmg, Cube
+71
+18
+31
+64
+4	// *Bow Inst Lightning Dmg, Cube
+71
+20
+31
+64
+4	// *Bow Inst Physical Dmg, Cube
+71
+15
+31
+64
+4	// *Bow Inst Chi Dmg, Cube
+71
+16
+31
+64
+2	// *Bow Buff Dmg Effect, Self
+71
+72
+
+4	// *Saber Buff Fire Dmg Effect, Self
+67
+17
+28
+55
+4	// *Saber Buff Cold Dmg Effect, Self
+67
+19
+28
+55
+4	// *Saber Buff Poison Dmg Effect, Self
+67
+18
+28
+55
+4	// *Saber Buff Lightning Dmg Effect, Self
+67
+20
+28
+55
+4	// *Saber Buff Physical Dmg Effect, Self
+67
+15
+28
+55
+4	// *Saber Buff Chi Dmg Effect, Self
+67
+16
+28
+55
+4	// *Saber Buff Fire Dmg Eff, Self, Area
+67
+17
+32
+59
+4	// *Saber Buff Cold Dmg Eff, Self, Area
+67
+19
+32
+59
+4	// *Saber Buff Poison Dmg Eff, Self, Area
+67
+18
+32
+59
+4	// *Saber Buff Lightning Dmg Eff, Self, Area 
+67
+20
+32
+59
+4	// *Saber Buff Physical Dmg Eff, Self, Area
+67
+15
+32
+59
+4	// *Saber Buff Chi Dmg Eff, Self, Area
+67
+16
+32
+59
+4	// *Saber Inst HP healing, Range
+67
+25
+29
+56
+4	// *Saber Inst Chi Rejuvenating, Range
+67
+26
+29
+56
+4	// *Saber Buff Attack Effect, Range
+67
+23
+29
+56
+4	// *Saber Buff Defense Effect, Range
+67
+24
+29
+56
+4	// *Saber Buff Fire Dmg Effect, Range
+67
+17
+29
+56
+4	// *Saber Buff Cold Dmg Effect, Range
+67
+19
+29
+56
+4	// *Saber Buff Poison Dmg Effect, Range
+67
+18
+29
+56
+4	// *Saber Buff Lightning Dmg Effect, Rng
+67
+20
+29
+56
+4	// *Saber Buff Physical Dmg Effect, Rng
+67
+15
+29
+56
+4	// *Saber Buff Chi Dmg Effect, Range
+67
+16
+29
+56
+4	// *Saber Buff Fire Resist, Range
+67
+17
+43
+56
+4	// *Saber Buff Cold Resist, Range
+67
+19
+43
+56
+4	// *Saber Buff Poison Resist, Range
+67
+18
+43
+56
+4	// *Saber Buff Lightning Resist, Range
+67
+20
+43
+56
+4	// *Saber Buff Physical Resist, Range
+67
+15
+43
+56
+4	// *Saber Stun effect, Range
+67
+22
+29
+62
+4	// *Saber Slow effect, Range
+67
+21
+29
+62
+4	// *Saber Const Fire Dmg, Range
+67
+17
+36
+62
+4	// *Saber Const Cold Dmg, Range
+67
+19
+36
+62
+4	// *Saber Const Poison Dmg, Range
+67
+18
+36
+62
+4	// *Saber Const Lightning Dmg, Range
+67
+20
+36
+62
+4	// *Saber Const Physical Dmg, Range
+67
+15
+36
+62
+4	// *Saber Const Chi Dmg, Range
+67
+16
+36
+62
+4	// *Saber Reduce Attack, Range
+67
+23
+29
+62
+4	// *Saber Reduce Defense, Range
+67
+24
+29
+62
+4	// *Saber Reduce Max Chi, Range
+67
+16
+29
+62
+4	// *Saber Fire Vuln, Range
+67
+17
+43
+62
+4	// *Saber Cold Vuln, Range
+67
+19
+43
+62
+4	// *Saber Poison Vuln, Range
+67
+18
+43
+62
+4	// *Saber Lightning Vuln, Range
+67
+20
+43
+62
+4	// *Saber Physical Vuln, Range
+67
+15
+43
+62
+4	// *Saber Inst Fire Dmg, Range
+67
+17
+29
+62
+4	// *Saber Inst Cold Dmg, Range
+67
+19
+29
+62
+4	// *Saber Inst Poison Dmg, Range
+67
+18
+29
+62
+4	// *Saber Inst Lightning Dmg, Range
+67
+20
+29
+62
+4	// *Saber Inst Physical Dmg, Range
+67
+15
+29
+62
+4	// *Saber Inst Chi Dmg, Range
+67
+16
+29
+62
+4	// *Saber Inst HP healing, Range Area
+67
+25
+33
+60
+4	// *Saber Inst Chi Rejuvenating, Rng Ar
+67
+26
+33
+60
+4	// *Saber Buff Attack Effect, Rng Ar
+67
+23
+33
+60
+4	// *Saber Buff Defense Effect, Rng Area
+67
+24
+33
+60
+4	// *Saber Buff Fire Dmg Effect, Rng Ar
+67
+17
+33
+60
+4	// *Saber Buff Cold Dmg Effect, Rng Ar
+67
+19
+33
+60
+4	// *Saber Buff Poison Dmg Eff, Rng Ar
+67
+18
+33
+60
+4	// *Saber Buff Lightning Dmg Eff, Rng Ar
+67
+20
+33
+60
+4	// *Saber Buff Physical Dmg Eff, Rng Ar
+67
+15
+33
+60
+4	// *Saber Buff Chi Dmg Effect, Rng Area
+67
+16
+33
+60
+4	// *Saber Buff Fire Resist, Range Area
+67
+17
+47
+60
+4	// *Saber Buff Cold Resist, Range Area
+67
+19
+47
+60
+4	// *Saber Buff Poison Resist, Range Area
+67
+18
+47
+60
+4	// *Saber Buff Lightning Resist, Rng Area
+67
+20
+47
+60
+4	// *Saber Buff Physical Resist, Rng Area
+67
+15
+47
+60
+4	// *Saber Stun effect, Range Area
+67
+22
+33
+66
+4	// *Saber Slow effect, Range Area
+67
+21
+33
+66
+4	// *Saber Const Fire Dmg, Range Area
+67
+17
+40
+66
+4	// *Saber Const Cold Dmg, Range Area
+67
+19
+40
+66
+4	// *Saber Const Poison Dmg, Rng Area
+67
+18
+40
+66
+4	// *Saber Const Lightning Dmg, Rng Ar
+67
+20
+40
+66
+4	// *Saber Const Physical Dmg, Rng Area
+67
+15
+40
+66
+4	// *Saber Const Chi Dmg, Range Area
+67
+16
+40
+66
+4	// *Saber Reduce Attack, Range Area
+67
+23
+33
+66
+4	// *Saber Reduce Defense, Range Area
+67
+24
+33
+66
+4	// *Saber Reduce Max Chi, Range Area
+67
+16
+33
+66
+4	// *Saber Fire Vuln, Range Area
+67
+17
+47
+66
+4	// *Saber Cold Vuln, Range Area
+67
+19
+47
+66
+4	// *Saber Poison Vuln, Range Area
+67
+18
+47
+66
+4	// *Saber Lightning Vuln, Range Area
+67
+20
+47
+66
+4	// *Saber Physical Vuln, Range Area
+67
+15
+47
+66
+4	// *Saber Inst Fire Dmg, Range Area
+67
+17
+33
+66
+4	// *Saber Inst Cold Dmg, Range Area
+67
+19
+33
+66
+4	// *Saber Inst Poison Dmg, Range Area
+67
+18
+33
+66
+4	// *Saber Inst Lightning Dmg, Rng Area
+67
+20
+33
+66
+4	// *Saber Inst Physical Dmg, Range Area
+67
+15
+33
+66
+4	// *Saber Inst Chi Dmg, Range Area
+67
+16
+33
+66
+4	// *Saber Immune Fire
+67
+17
+49
+55
+4 	// *Saber Immune Cold
+67
+19
+49
+55
+4	// *Saber Immune Poison
+67
+18
+49
+55
+4	// *Saber Immune Lightning
+67
+20
+49
+55
+4	// *Saber Immune Physical
+67
+15
+49
+55
+4	// *Saber Immune ChiDmg
+67
+16
+49
+55
+4	// *Saber Immune Slow
+67
+21
+49
+55
+4	// *Saber Immune Stun
+67
+22
+49
+55
+4	// *Saber Inst HP healing, Self
+67
+25
+28
+55
+4	// *Saber Inst Chi Rejuvenation, Self
+67
+26
+28
+55
+4	// *Saber Buff Attack Effect, Self
+67
+23
+28
+55
+4	// *Saber Buff Defense Effect, Self
+67
+24
+28
+55
+4	// *Saber Buff Fire Resist, Self
+67
+17
+42
+55
+4	// *Saber Buff Cold Resist, Self
+67
+19
+42
+55
+4	// *Saber Buff Poison Resist, Self
+67
+18
+42
+55
+4	// *Saber Buff Lightning Resist, Self
+67
+20
+42
+55
+4	// *Saber Buff Physical Resist, Slef
+67
+15
+42
+55
+4	// *Saber Stun effect, Melee
+67
+22
+28
+61
+4	// *Saber Slow effect, Melee
+67
+21
+28
+61
+4	// *Saber Const Fire Dmg, Melee
+67
+17
+35
+61
+4	// *Saber Const Cold Dmg, Melee
+67
+19
+35
+61
+4	// *Saber Const Poison Dmg, Melee
+67
+18
+35
+61
+4	// *Saber Const Lightning Dmg, Melee
+67
+20
+35
+61
+4	// *Saber Const Physical Dmg, Melee
+67
+15
+35
+61
+4	// *Saber Const Chi Dmg, Melee
+67
+16
+35
+61
+4	// *Saber Debuff/Reduce Attack, Melee
+67
+23
+28
+61
+4	// *Saber Debuff/Reduce Defense, Melee
+67
+24
+28
+61
+4	// *Saber Debuff/Reduce Max Chi, Melee
+67
+16
+28
+61
+4	// *Saber Debuff/Fire Vuln, Melee
+67
+17
+42
+61
+4	// *Saber Debuff/Cold Vuln, Melee
+67
+19
+42
+61
+4	// *Saber Debuff/Poison Vuln, Melee
+67
+18
+42
+61
+4	// *Saber Debuff/Lightning Vuln, Melee
+67
+20
+42
+61
+4	// *Saber Debuff Physical Vuln, Melee
+67
+15
+42
+61	
+4	// *Saber Inst Fire Dmg, Melee
+67
+17
+28
+61
+4	// *Saber Inst Cold Dmg, Melee
+67
+19
+28
+61
+4	// *Saber Inst Poison Dmg, Melee
+67
+18
+28
+61
+4	// *Saber Inst Lightning Dmg, Melee
+67
+20
+28
+61
+4	// *Saber Inst Physical Dmg, Melee
+67
+15
+28
+61
+4	// *Saber Inst Chi Dmg, Melee
+67
+16
+28
+61
+4	// *Saber Inst HP healing, Self, Area
+67
+25
+32
+59
+4	// *Saber Inst Chi Rejuvenating, Self, Area
+67
+26
+32
+59
+4	// *Saber Buff Attack Eff, Self, Area
+67
+23
+32
+59
+4	// *Saber Buff Defense Eff, Self, Area
+67
+24
+32
+59
+4	// *Saber Buff Fire Resist, Self, Area
+67
+17
+46
+59
+4	// *Saber Buff Cold Resist, Self, Area
+67
+19
+46
+59
+4	// *Saber Buff Poison Resist, Self, Area
+67
+18
+46
+59
+4	// *Saber Buff Lightning Resist, Self, Area
+67
+20
+46
+59
+4	// *Saber Buff Physical Resist, Self, Area
+67
+15
+46
+59
+4	// *Saber Stun Effect, Local Area
+67
+22
+32
+65
+4	// *Saber SLow effect, Local Area
+67
+21
+32
+65
+4	// *Saber Const Fire Dmg, Local Area
+67
+17
+39
+65
+4	// *Saber Const Cold Dmg, Local Area
+67
+19
+39
+65
+4	// *Saber Const Poison Dmg, Local Area
+67
+18
+39
+65
+4	// *Saber Const Lightning Dmg, Local Area
+67
+20
+39
+65
+4	// *Saber Const Physical Dmg, Local Area
+67
+15
+39
+65
+4	// *Saber Const Chi Dmg, Local Area
+67
+16
+39
+65
+4	// *Saber Reduce Attack, Local Area
+67
+23
+32
+65
+4	// *Saber Reduce Defense, Local Area
+67
+24
+32
+65
+4	// *Saber Reduce Max Chi, Local Area
+67
+16
+32
+65
+4	// *Saber Fire Vuln, Local Area
+67
+17
+46
+65
+4	// *Saber Cold Vuln, Local Area
+67
+19
+46
+65
+4	// *Saber Poison Vuln, Local Area
+67
+18
+46
+65
+4	// *Saber Lightning Vuln, Local Area
+67
+20
+46
+65
+4	// *Saber Physical Vuln, Local Area
+67
+15
+46
+65
+4	// *Saber Inst Fire Dmg, Local Area
+67
+17
+32
+65
+4	// *Saber Inst Cold Dmg, Local Area
+67
+19
+32
+65
+4	// *Saber Inst Poison Dmg, Local Area
+67
+18
+32
+65
+4	// *Saber Inst Lightning Dmg, Local Area
+67
+20
+32
+65
+4	// *Saber Inst Physical Dmg, Local Area
+67
+15
+32
+65
+4	// *Saber Inst Chi Dmg, Local Area
+67
+16
+32
+65
+3	// *Saber Stun effect, Bolt
+67
+22
+27
+3	// *Saber Slow effect, Bolt
+67
+21
+27
+3	// *Saber Inst Fire Dmg, Bolt
+67
+17
+27
+3	// *Saber Inst Cold Dmg, Bolt
+67
+19
+27
+3	// *Saber Inst Poison Dmg, Bolt
+67
+18
+27
+3	// *Saber Inst Lightning Dmg, Bolt
+67
+20
+27
+3	// *Saber Inst Physical Dmg, Bolt
+67
+15
+27
+3	// *Saber Inst Chi Dmg, Bolt
+67
+16
+27
+4	// *Saber Stun effect, Slash
+67
+22
+30
+63
+4	// *Saber Slow effect, Slash
+67
+21
+30
+63
+4	// *Saber Inst Fire Dmg, Slash
+67
+17
+30
+63
+4	// *Saber Inst Cold Dmg, Slash
+67
+19
+30
+63
+4	// *Saber Inst Poison Dmg, Slash
+67
+18
+30
+63
+4	// *Saber Inst Lightning Dmg, Slash
+67
+20
+30
+63
+4	// *Saber Inst Physical Dmg, Slash
+67
+15
+30
+63
+4	// *Saber Inst Chi Dmg, Slash
+67
+16
+30
+63
+4	// *Saber Stun effect, Cube
+67
+22
+31
+64	
+4	// *Saber Slow effect, Cube
+67
+21
+31
+64
+4	// *Saber Inst Fire Dmg, Cube
+67
+17
+31
+64
+4	// *Saber Inst Cold Dmg, Cube
+67
+19
+31
+64
+4	// *Saber Inst Poison Dmg, Cube
+67
+18
+31
+64
+4	// *Saber Inst Lightning Dmg, Cube
+67
+20
+31
+64
+4	// *Saber Inst Physical Dmg, Cube
+67
+15
+31
+64
+4	// *Saber Inst Chi Dmg, Cube
+67
+16
+31
+64
+2	// *Saber Buff Dmg Effect, Self
+67
+72
+
+4	// *Staff Buff Fire Dmg Effect, Self
+69
+17
+28
+55
+4	// *Staff Buff Cold Dmg Effect, Self
+69
+19
+28
+55
+4	// *Staff Buff Poison Dmg Effect, Self
+69
+18
+28
+55
+4	// *Staff Buff Lightning Dmg Effect, Self
+69
+20
+28
+55
+4	// *Staff Buff Physical Dmg Effect, Self
+69
+15
+28
+55
+4	// *Staff Buff Chi Dmg Effect, Self
+69
+16
+28
+55
+4	// *Staff Buff Fire Dmg Eff, Self, Area
+69
+17
+32
+59
+4	// *Staff Buff Cold Dmg Eff, Self, Area
+69
+19
+32
+59
+4	// *Staff Buff Poison Dmg Eff, Self, Area
+69
+18
+32
+59
+4	// *Staff Buff Lightning Dmg Eff, Self, Area 
+69
+20
+32
+59
+4	// *Staff Buff Physical Dmg Eff, Self, Area
+69
+15
+32
+59
+4	// *Staff Buff Chi Dmg Eff, Self, Area
+69
+16
+32
+59
+4	// *Staff Inst HP healing, Range
+69
+25
+29
+56
+4	// *Staff Inst Chi Rejuvenating, Range
+69
+26
+29
+56
+4	// *Staff Buff Attack Effect, Range
+69
+23
+29
+56
+4	// *Staff Buff Defense Effect, Range
+69
+24
+29
+56
+4	// *Staff Buff Fire Dmg Effect, Range
+69
+17
+29
+56
+4	// *Staff Buff Cold Dmg Effect, Range
+69
+19
+29
+56
+4	// *Staff Buff Poison Dmg Effect, Range
+69
+18
+29
+56
+4	// *Staff Buff Lightning Dmg Effect, Rng
+69
+20
+29
+56
+4	// *Staff Buff Physical Dmg Effect, Rng
+69
+15
+29
+56
+4	// *Staff Buff Chi Dmg Effect, Range
+69
+16
+29
+56
+4	// *Staff Buff Fire Resist, Range
+69
+17
+43
+56
+4	// *Staff Buff Cold Resist, Range
+69
+19
+43
+56
+4	// *Staff Buff Poison Resist, Range
+69
+18
+43
+56
+4	// *Staff Buff Lightning Resist, Range
+69
+20
+43
+56
+4	// *Staff Buff Physical Resist, Range
+69
+15
+43
+56
+4	// *Staff Stun effect, Range
+69
+22
+29
+62
+4	// *Staff Slow effect, Range
+69
+21
+29
+62
+4	// *Staff Const Fire Dmg, Range
+69
+17
+36
+62
+4	// *Staff Const Cold Dmg, Range
+69
+19
+36
+62
+4	// *Staff Const Poison Dmg, Range
+69
+18
+36
+62
+4	// *Staff Const Lightning Dmg, Range
+69
+20
+36
+62
+4	// *Staff Const Physical Dmg, Range
+69
+15
+36
+62
+4	// *Staff Const Chi Dmg, Range
+69
+16
+36
+62
+4	// *Staff Reduce Attack, Range
+69
+23
+29
+62
+4	// *Staff Reduce Defense, Range
+69
+24
+29
+62
+4	// *Staff Reduce Max Chi, Range
+69
+16
+29
+62
+4	// *Staff Fire Vuln, Range
+69
+17
+43
+62
+4	// *Staff Cold Vuln, Range
+69
+19
+43
+62
+4	// *Staff Poison Vuln, Range
+69
+18
+43
+62
+4	// *Staff Lightning Vuln, Range
+69
+20
+43
+62
+4	// *Staff Physical Vuln, Range
+69
+15
+43
+62
+4	// *Staff Inst Fire Dmg, Range
+69
+17
+29
+62
+4	// *Staff Inst Cold Dmg, Range
+69
+19
+29
+62
+4	// *Staff Inst Poison Dmg, Range
+69
+18
+29
+62
+4	// *Staff Inst Lightning Dmg, Range
+69
+20
+29
+62
+4	// *Staff Inst Physical Dmg, Range
+69
+15
+29
+62
+4	// *Staff Inst Chi Dmg, Range
+69
+16
+29
+62
+4	// *Staff Inst HP healing, Range Area
+69
+25
+33
+60
+4	// *Staff Inst Chi Rejuvenating, Rng Ar
+69
+26
+33
+60
+4	// *Staff Buff Attack Effect, Rng Ar
+69
+23
+33
+60
+4	// *Staff Buff Defense Effect, Rng Area
+69
+24
+33
+60
+4	// *Staff Buff Fire Dmg Effect, Rng Ar
+69
+17
+33
+60
+4	// *Staff Buff Cold Dmg Effect, Rng Ar
+69
+19
+33
+60
+4	// *Staff Buff Poison Dmg Eff, Rng Ar
+69
+18
+33
+60
+4	// *Staff Buff Lightning Dmg Eff, Rng Ar
+69
+20
+33
+60
+4	// *Staff Buff Physical Dmg Eff, Rng Ar
+69
+15
+33
+60
+4	// *Staff Buff Chi Dmg Effect, Rng Area
+69
+16
+33
+60
+4	// *Staff Buff Fire Resist, Range Area
+69
+17
+47
+60
+4	// *Staff Buff Cold Resist, Range Area
+69
+19
+47
+60
+4	// *Staff Buff Poison Resist, Range Area
+69
+18
+47
+60
+4	// *Staff Buff Lightning Resist, Rng Area
+69
+20
+47
+60
+4	// *Staff Buff Physical Resist, Rng Area
+69
+15
+47
+60
+4	// *Staff Stun effect, Range Area
+69
+22
+33
+66
+4	// *Staff Slow effect, Range Area
+69
+21
+33
+66
+4	// *Staff Const Fire Dmg, Range Area
+69
+17
+40
+66
+4	// *Staff Const Cold Dmg, Range Area
+69
+19
+40
+66
+4	// *Staff Const Poison Dmg, Rng Area
+69
+18
+40
+66
+4	// *Staff Const Lightning Dmg, Rng Ar
+69
+20
+40
+66
+4	// *Staff Const Physical Dmg, Rng Area
+69
+15
+40
+66
+4	// *Staff Const Chi Dmg, Range Area
+69
+16
+40
+66
+4	// *Staff Reduce Attack, Range Area
+69
+23
+33
+66
+4	// *Staff Reduce Defense, Range Area
+69
+24
+33
+66
+4	// *Staff Reduce Max Chi, Range Area
+69
+16
+33
+66
+4	// *Staff Fire Vuln, Range Area
+69
+17
+47
+66
+4	// *Staff Cold Vuln, Range Area
+69
+19
+47
+66
+4	// *Staff Poison Vuln, Range Area
+69
+18
+47
+66
+4	// *Staff Lightning Vuln, Range Area
+69
+20
+47
+66
+4	// *Staff Physical Vuln, Range Area
+69
+15
+47
+66
+4	// *Staff Inst Fire Dmg, Range Area
+69
+17
+33
+66
+4	// *Staff Inst Cold Dmg, Range Area
+69
+19
+33
+66
+4	// *Staff Inst Poison Dmg, Range Area
+69
+18
+33
+66
+4	// *Staff Inst Lightning Dmg, Rng Area
+69
+20
+33
+66
+4	// *Staff Inst Physical Dmg, Range Area
+69
+15
+33
+66
+4	// *Staff Inst Chi Dmg, Range Area
+69
+16
+33
+66
+4	// *Staff Immune Fire
+69
+17
+49
+55
+4 	// *Staff Immune Cold
+69
+19
+49
+55
+4	// *Staff Immune Poison
+69
+18
+49
+55
+4	// *Staff Immune Lightning
+69
+20
+49
+55
+4	// *Staff Immune Physical
+69
+15
+49
+55
+4	// *Staff Immune ChiDmg
+69
+16
+49
+55
+4	// *Staff Immune Slow
+69
+21
+49
+55
+4	// *Staff Immune Stun
+69
+22
+49
+55
+4	// *Staff Inst HP healing, Self
+69
+25
+28
+55
+4	// *Staff Inst Chi Rejuvenation, Self
+69
+26
+28
+55
+4	// *Staff Buff Attack Effect, Self
+69
+23
+28
+55
+4	// *Staff Buff Defense Effect, Self
+69
+24
+28
+55
+4	// *Staff Buff Fire Resist, Self
+69
+17
+42
+55
+4	// *Staff Buff Cold Resist, Self
+69
+19
+42
+55
+4	// *Staff Buff Poison Resist, Self
+69
+18
+42
+55
+4	// *Staff Buff Lightning Resist, Self
+69
+20
+42
+55
+4	// *Staff Buff Physical Resist, Slef
+69
+15
+42
+55
+4	// *Staff Stun effect, Melee
+69
+22
+28
+61
+4	// *Staff Slow effect, Melee
+69
+21
+28
+61
+4	// *Staff Const Fire Dmg, Melee
+69
+17
+35
+61
+4	// *Staff Const Cold Dmg, Melee
+69
+19
+35
+61
+4	// *Staff Const Poison Dmg, Melee
+69
+18
+35
+61
+4	// *Staff Const Lightning Dmg, Melee
+69
+20
+35
+61
+4	// *Staff Const Physical Dmg, Melee
+69
+15
+35
+61
+4	// *Staff Const Chi Dmg, Melee
+69
+16
+35
+61
+4	// *Staff Debuff/Reduce Attack, Melee
+69
+23
+28
+61
+4	// *Staff Debuff/Reduce Defense, Melee
+69
+24
+28
+61
+4	// *Staff Debuff/Reduce Max Chi, Melee
+69
+16
+28
+61
+4	// *Staff Debuff/Fire Vuln, Melee
+69
+17
+42
+61
+4	// *Staff Debuff/Cold Vuln, Melee
+69
+19
+42
+61
+4	// *Staff Debuff/Poison Vuln, Melee
+69
+18
+42
+61
+4	// *Staff Debuff/Lightning Vuln, Melee
+69
+20
+42
+61
+4	// *Staff Debuff Physical Vuln, Melee
+69
+15
+42
+61	
+4	// *Staff Inst Fire Dmg, Melee
+69
+17
+28
+61
+4	// *Staff Inst Cold Dmg, Melee
+69
+19
+28
+61
+4	// *Staff Inst Poison Dmg, Melee
+69
+18
+28
+61
+4	// *Staff Inst Lightning Dmg, Melee
+69
+20
+28
+61
+4	// *Staff Inst Physical Dmg, Melee
+69
+15
+28
+61
+4	// *Staff Inst Chi Dmg, Melee
+69
+16
+28
+61
+4	// *Staff Inst HP healing, Self, Area
+69
+25
+32
+59
+4	// *Staff Inst Chi Rejuvenating, Self, Area
+69
+26
+32
+59
+4	// *Staff Buff Attack Eff, Self, Area
+69
+23
+32
+59
+4	// *Staff Buff Defense Eff, Self, Area
+69
+24
+32
+59
+4	// *Staff Buff Fire Resist, Self, Area
+69
+17
+46
+59
+4	// *Staff Buff Cold Resist, Self, Area
+69
+19
+46
+59
+4	// *Staff Buff Poison Resist, Self, Area
+69
+18
+46
+59
+4	// *Staff Buff Lightning Resist, Self, Area
+69
+20
+46
+59
+4	// *Staff Buff Physical Resist, Self, Area
+69
+15
+46
+59
+4	// *Staff Stun Effect, Local Area
+69
+22
+32
+65
+4	// *Staff SLow effect, Local Area
+69
+21
+32
+65
+4	// *Staff Const Fire Dmg, Local Area
+69
+17
+39
+65
+4	// *Staff Const Cold Dmg, Local Area
+69
+19
+39
+65
+4	// *Staff Const Poison Dmg, Local Area
+69
+18
+39
+65
+4	// *Staff Const Lightning Dmg, Local Area
+69
+20
+39
+65
+4	// *Staff Const Physical Dmg, Local Area
+69
+15
+39
+65
+4	// *Staff Const Chi Dmg, Local Area
+69
+16
+39
+65
+4	// *Staff Reduce Attack, Local Area
+69
+23
+32
+65
+4	// *Staff Reduce Defense, Local Area
+69
+24
+32
+65
+4	// *Staff Reduce Max Chi, Local Area
+69
+16
+32
+65
+4	// *Staff Fire Vuln, Local Area
+69
+17
+46
+65
+4	// *Staff Cold Vuln, Local Area
+69
+19
+46
+65
+4	// *Staff Poison Vuln, Local Area
+69
+18
+46
+65
+4	// *Staff Lightning Vuln, Local Area
+69
+20
+46
+65
+4	// *Staff Physical Vuln, Local Area
+69
+15
+46
+65
+4	// *Staff Inst Fire Dmg, Local Area
+69
+17
+32
+65
+4	// *Staff Inst Cold Dmg, Local Area
+69
+19
+32
+65
+4	// *Staff Inst Poison Dmg, Local Area
+69
+18
+32
+65
+4	// *Staff Inst Lightning Dmg, Local Area
+69
+20
+32
+65
+4	// *Staff Inst Physical Dmg, Local Area
+69
+15
+32
+65
+4	// *Staff Inst Chi Dmg, Local Area
+69
+16
+32
+65
+3	// *Staff Stun effect, Bolt
+69
+22
+27
+3	// *Staff Slow effect, Bolt
+69
+21
+27
+3	// *Staff Inst Fire Dmg, Bolt
+69
+17
+27
+3	// *Staff Inst Cold Dmg, Bolt
+69
+19
+27
+3	// *Staff Inst Poison Dmg, Bolt
+69
+18
+27
+3	// *Staff Inst Lightning Dmg, Bolt
+69
+20
+27
+3	// *Staff Inst Physical Dmg, Bolt
+69
+15
+27
+3	// *Staff Inst Chi Dmg, Bolt
+69
+16
+27
+4	// *Staff Stun effect, Slash
+69
+22
+30
+63
+4	// *Staff Slow effect, Slash
+69
+21
+30
+63
+4	// *Staff Inst Fire Dmg, Slash
+69
+17
+30
+63
+4	// *Staff Inst Cold Dmg, Slash
+69
+19
+30
+63
+4	// *Staff Inst Poison Dmg, Slash
+69
+18
+30
+63
+4	// *Staff Inst Lightning Dmg, Slash
+69
+20
+30
+63
+4	// *Staff Inst Physical Dmg, Slash
+69
+15
+30
+63
+4	// *Staff Inst Chi Dmg, Slash
+69
+16
+30
+63
+4	// *Staff Stun effect, Cube
+69
+22
+31
+64	
+4	// *Staff Slow effect, Cube
+69
+21
+31
+64
+4	// *Staff Inst Fire Dmg, Cube
+69
+17
+31
+64
+4	// *Staff Inst Cold Dmg, Cube
+69
+19
+31
+64
+4	// *Staff Inst Poison Dmg, Cube
+69
+18
+31
+64
+4	// *Staff Inst Lightning Dmg, Cube
+69
+20
+31
+64
+4	// *Staff Inst Physical Dmg, Cube
+69
+15
+31
+64
+4	// *Staff Inst Chi Dmg, Cube
+69
+16
+31
+64
+2	// *Staff Buff Dmg Effect, Self
+69
+72
+
+4	// *Sword Buff Fire Dmg Effect, Self
+70
+17
+28
+55
+4	// *Sword Buff Cold Dmg Effect, Self
+70
+19
+28
+55
+4	// *Sword Buff Poison Dmg Effect, Self
+70
+18
+28
+55
+4	// *Sword Buff Lightning Dmg Effect, Self
+70
+20
+28
+55
+4	// *Sword Buff Physical Dmg Effect, Self
+70
+15
+28
+55
+4	// *Sword Buff Chi Dmg Effect, Self
+70
+16
+28
+55
+4	// *Sword Buff Fire Dmg Eff, Self, Area
+70
+17
+32
+59
+4	// *Sword Buff Cold Dmg Eff, Self, Area
+70
+19
+32
+59
+4	// *Sword Buff Poison Dmg Eff, Self, Area
+70
+18
+32
+59
+4	// *Sword Buff Lightning Dmg Eff, Self, Area 
+70
+20
+32
+59
+4	// *Sword Buff Physical Dmg Eff, Self, Area
+70
+15
+32
+59
+4	// *Sword Buff Chi Dmg Eff, Self, Area
+70
+16
+32
+59
+4	// *Sword Inst HP healing, Range
+70
+25
+29
+56
+4	// *Sword Inst Chi Rejuvenating, Range
+70
+26
+29
+56
+4	// *Sword Buff Attack Effect, Range
+70
+23
+29
+56
+4	// *Sword Buff Defense Effect, Range
+70
+24
+29
+56
+4	// *Sword Buff Fire Dmg Effect, Range
+70
+17
+29
+56
+4	// *Sword Buff Cold Dmg Effect, Range
+70
+19
+29
+56
+4	// *Sword Buff Poison Dmg Effect, Range
+70
+18
+29
+56
+4	// *Sword Buff Lightning Dmg Effect, Rng
+70
+20
+29
+56
+4	// *Sword Buff Physical Dmg Effect, Rng
+70
+15
+29
+56
+4	// *Sword Buff Chi Dmg Effect, Range
+70
+16
+29
+56
+4	// *Sword Buff Fire Resist, Range
+70
+17
+43
+56
+4	// *Sword Buff Cold Resist, Range
+70
+19
+43
+56
+4	// *Sword Buff Poison Resist, Range
+70
+18
+43
+56
+4	// *Sword Buff Lightning Resist, Range
+70
+20
+43
+56
+4	// *Sword Buff Physical Resist, Range
+70
+15
+43
+56
+4	// *Sword Stun effect, Range
+70
+22
+29
+62
+4	// *Sword Slow effect, Range
+70
+21
+29
+62
+4	// *Sword Const Fire Dmg, Range
+70
+17
+36
+62
+4	// *Sword Const Cold Dmg, Range
+70
+19
+36
+62
+4	// *Sword Const Poison Dmg, Range
+70
+18
+36
+62
+4	// *Sword Const Lightning Dmg, Range
+70
+20
+36
+62
+4	// *Sword Const Physical Dmg, Range
+70
+15
+36
+62
+4	// *Sword Const Chi Dmg, Range
+70
+16
+36
+62
+4	// *Sword Reduce Attack, Range
+70
+23
+29
+62
+4	// *Sword Reduce Defense, Range
+70
+24
+29
+62
+4	// *Sword Reduce Max Chi, Range
+70
+16
+29
+62
+4	// *Sword Fire Vuln, Range
+70
+17
+43
+62
+4	// *Sword Cold Vuln, Range
+70
+19
+43
+62
+4	// *Sword Poison Vuln, Range
+70
+18
+43
+62
+4	// *Sword Lightning Vuln, Range
+70
+20
+43
+62
+4	// *Sword Physical Vuln, Range
+70
+15
+43
+62
+4	// *Sword Inst Fire Dmg, Range
+70
+17
+29
+62
+4	// *Sword Inst Cold Dmg, Range
+70
+19
+29
+62
+4	// *Sword Inst Poison Dmg, Range
+70
+18
+29
+62
+4	// *Sword Inst Lightning Dmg, Range
+70
+20
+29
+62
+4	// *Sword Inst Physical Dmg, Range
+70
+15
+29
+62
+4	// *Sword Inst Chi Dmg, Range
+70
+16
+29
+62
+4	// *Sword Inst HP healing, Range Area
+70
+25
+33
+60
+4	// *Sword Inst Chi Rejuvenating, Rng Ar
+70
+26
+33
+60
+4	// *Sword Buff Attack Effect, Rng Ar
+70
+23
+33
+60
+4	// *Sword Buff Defense Effect, Rng Area
+70
+24
+33
+60
+4	// *Sword Buff Fire Dmg Effect, Rng Ar
+70
+17
+33
+60
+4	// *Sword Buff Cold Dmg Effect, Rng Ar
+70
+19
+33
+60
+4	// *Sword Buff Poison Dmg Eff, Rng Ar
+70
+18
+33
+60
+4	// *Sword Buff Lightning Dmg Eff, Rng Ar
+70
+20
+33
+60
+4	// *Sword Buff Physical Dmg Eff, Rng Ar
+70
+15
+33
+60
+4	// *Sword Buff Chi Dmg Effect, Rng Area
+70
+16
+33
+60
+4	// *Sword Buff Fire Resist, Range Area
+70
+17
+47
+60
+4	// *Sword Buff Cold Resist, Range Area
+70
+19
+47
+60
+4	// *Sword Buff Poison Resist, Range Area
+70
+18
+47
+60
+4	// *Sword Buff Lightning Resist, Rng Area
+70
+20
+47
+60
+4	// *Sword Buff Physical Resist, Rng Area
+70
+15
+47
+60
+4	// *Sword Stun effect, Range Area
+70
+22
+33
+66
+4	// *Sword Slow effect, Range Area
+70
+21
+33
+66
+4	// *Sword Const Fire Dmg, Range Area
+70
+17
+40
+66
+4	// *Sword Const Cold Dmg, Range Area
+70
+19
+40
+66
+4	// *Sword Const Poison Dmg, Rng Area
+70
+18
+40
+66
+4	// *Sword Const Lightning Dmg, Rng Ar
+70
+20
+40
+66
+4	// *Sword Const Physical Dmg, Rng Area
+70
+15
+40
+66
+4	// *Sword Const Chi Dmg, Range Area
+70
+16
+40
+66
+4	// *Sword Reduce Attack, Range Area
+70
+23
+33
+66
+4	// *Sword Reduce Defense, Range Area
+70
+24
+33
+66
+4	// *Sword Reduce Max Chi, Range Area
+70
+16
+33
+66
+4	// *Sword Fire Vuln, Range Area
+70
+17
+47
+66
+3	// *Sword Cold Vuln, Bolt,  mirror strike
+70
+19
+41
+4	// *Sword Poison Vuln, Range Area
+70
+18
+47
+66
+4	// *Sword Lightning Vuln, Range Area
+70
+20
+47
+66
+4	// *Sword Physical Vuln, Range Area
+70
+15
+47
+66
+4	// *Sword Inst Fire Dmg, Range Area
+70
+17
+33
+66
+4	// *Sword Inst Cold Dmg, Range Area
+70
+19
+33
+66
+4	// *Sword Inst Poison Dmg, Range Area
+70
+18
+33
+66
+4	// *Sword Inst Lightning Dmg, Rng Area
+70
+20
+33
+66
+4	// *Sword Inst Physical Dmg, Range Area
+70
+15
+33
+66
+4	// *Sword Inst Chi Dmg, Range Area
+70
+16
+33
+66
+4	// *Sword Immune Fire
+70
+17
+49
+55
+4 	// *Sword Immune Cold
+70
+19
+49
+55
+4	// *Sword Immune Poison
+70
+18
+49
+55
+4	// *Sword Immune Lightning
+70
+20
+49
+55
+4	// *Sword Immune Physical
+70
+15
+49
+55
+4	// *Sword Immune ChiDmg
+70
+16
+49
+55
+4	// *Sword Immune Slow
+70
+21
+49
+55
+4	// *Sword Immune Stun
+70
+22
+49
+55
+4	// *Sword Inst HP healing, Self
+70
+25
+28
+55
+4	// *Sword Inst Chi Rejuvenation, Self
+70
+26
+28
+55
+4	// *Sword Buff Attack Effect, Self
+70
+23
+28
+55
+4	// *Sword Buff Defense Effect, Self
+70
+24
+28
+55
+4	// *Sword Buff Fire Resist, Self
+70
+17
+42
+55
+4	// *Sword Buff Cold Resist, Self
+70
+19
+42
+55
+4	// *Sword Buff Poison Resist, Self
+70
+18
+42
+55
+4	// *Sword Buff Lightning Resist, Self
+70
+20
+42
+55
+4	// *Sword Buff Physical Resist, Slef
+70
+15
+42
+55
+4	// *Sword Stun effect, Melee
+70
+22
+28
+61
+4	// *Sword Slow effect, Melee
+70
+21
+28
+61
+4	// *Sword Const Fire Dmg, Melee
+70
+17
+35
+61
+4	// *Sword Const Cold Dmg, Melee
+70
+19
+35
+61
+4	// *Sword Const Poison Dmg, Melee
+70
+18
+35
+61
+4	// *Sword Const Lightning Dmg, Melee
+70
+20
+35
+61
+4	// *Sword Const Physical Dmg, Melee
+70
+15
+35
+61
+4	// *Sword Const Chi Dmg, Melee
+70
+16
+35
+61
+4	// *Sword Debuff/Reduce Attack, Melee
+70
+23
+28
+61
+4	// *Sword Debuff/Reduce Defense, Melee
+70
+24
+28
+61
+4	// *Sword Debuff/Reduce Max Chi, Melee
+70
+16
+28
+61
+4	// *Sword Debuff/Fire Vuln, Melee
+70
+17
+42
+61
+4	// *Sword Debuff/Cold Vuln, Melee
+70
+19
+42
+61
+4	// *Sword Debuff/Poison Vuln, Melee
+70
+18
+42
+61
+4	// *Sword Debuff/Lightning Vuln, Melee
+70
+20
+42
+61
+4	// *Sword Debuff Physical Vuln, Melee
+70
+15
+42
+61	
+4	// *Sword Inst Fire Dmg, Melee
+70
+17
+28
+61
+4	// *Sword Inst Cold Dmg, Melee
+70
+19
+28
+61
+4	// *Sword Inst Poison Dmg, Melee
+70
+18
+28
+61
+4	// *Sword Inst Lightning Dmg, Melee
+70
+20
+28
+61
+4	// *Sword Inst Physical Dmg, Melee
+70
+15
+28
+61
+4	// *Sword Inst Chi Dmg, Melee
+70
+16
+28
+61
+4	// *Sword Inst HP healing, Self, Area
+70
+25
+32
+59
+4	// *Sword Inst Chi Rejuvenating, Self, Area
+70
+26
+32
+59
+4	// *Sword Buff Attack Eff, Self, Area
+70
+23
+32
+59
+4	// *Sword Buff Defense Eff, Self, Area
+70
+24
+32
+59
+4	// *Sword Buff Fire Resist, Self, Area
+70
+17
+46
+59
+4	// *Sword Buff Cold Resist, Self, Area
+70
+19
+46
+59
+4	// *Sword Buff Poison Resist, Self, Area
+70
+18
+46
+59
+4	// *Sword Buff Lightning Resist, Self, Area
+70
+20
+46
+59
+4	// *Sword Buff Physical Resist, Self, Area
+70
+15
+46
+59
+4	// *Sword Stun Effect, Local Area
+70
+22
+32
+65
+4	// *Sword SLow effect, Local Area
+70
+21
+32
+65
+4	// *Sword Const Fire Dmg, Local Area
+70
+17
+39
+65
+4	// *Sword Const Cold Dmg, Local Area
+70
+19
+39
+65
+4	// *Sword Const Poison Dmg, Local Area
+70
+18
+39
+65
+4	// *Sword Const Lightning Dmg, Local Area
+70
+20
+39
+65
+4	// *Sword Const Physical Dmg, Local Area
+70
+15
+39
+65
+4	// *Sword Const Chi Dmg, Local Area
+70
+16
+39
+65
+4	// *Sword Reduce Attack, Local Area
+70
+23
+32
+65
+4	// *Sword Reduce Defense, Local Area
+70
+24
+32
+65
+4	// *Sword Reduce Max Chi, Local Area
+70
+16
+32
+65
+4	// *Sword Fire Vuln, Local Area
+70
+17
+46
+65
+4	// *Sword Cold Vuln, Local Area
+70
+19
+46
+65
+4	// *Sword Poison Vuln, Local Area
+70
+18
+46
+65
+4	// *Sword Lightning Vuln, Local Area
+70
+20
+46
+65
+4	// *Sword Physical Vuln, Local Area
+70
+15
+46
+65
+4	// *Sword Inst Fire Dmg, Local Area
+70
+17
+32
+65
+4	// *Sword Inst Cold Dmg, Local Area
+70
+19
+32
+65
+4	// *Sword Inst Poison Dmg, Local Area
+70
+18
+32
+65
+4	// *Sword Inst Lightning Dmg, Local Area
+70
+20
+32
+65
+4	// *Sword Inst Physical Dmg, Local Area
+70
+15
+32
+65
+4	// *Sword Inst Chi Dmg, Local Area
+70
+16
+32
+65
+3	// *Sword Stun effect, Bolt
+70
+22
+27
+3	// *Sword Slow effect, Bolt
+70
+21
+27
+3	// *Sword Inst Fire Dmg, Bolt
+70
+17
+27
+3	// *Sword Inst Cold Dmg, Bolt
+70
+19
+27
+3	// *Sword Inst Poison Dmg, Bolt
+70
+18
+27
+3	// *Sword Inst Lightning Dmg, Bolt
+70
+20
+27
+3	// *Sword Inst Physical Dmg, Bolt
+70
+15
+27
+3	// *Sword Inst Chi Dmg, Bolt
+70
+16
+27
+4	// *Sword Stun effect, Slash
+70
+22
+30
+63
+4	// *Sword Slow effect, Slash
+70
+21
+30
+63
+4	// *Sword Inst Fire Dmg, Slash
+70
+17
+30
+63
+4	// *Sword Inst Cold Dmg, Slash
+70
+19
+30
+63
+4	// *Sword Inst Poison Dmg, Slash
+70
+18
+30
+63
+4	// *Sword Inst Lightning Dmg, Slash
+70
+20
+30
+63
+4	// *Sword Inst Physical Dmg, Slash
+70
+15
+30
+63
+4	// *Sword Inst Chi Dmg, Slash
+70
+16
+30
+63
+4	// *Sword Stun effect, Cube
+70
+22
+31
+64	
+4	// *Sword Slow effect, Cube
+70
+21
+31
+64
+4	// *Sword Inst Fire Dmg, Cube
+70
+17
+31
+64
+4	// *Sword Inst Cold Dmg, Cube
+70
+19
+31
+64
+4	// *Sword Inst Poison Dmg, Cube
+70
+18
+31
+64
+4	// *Sword Inst Lightning Dmg, Cube
+70
+20
+31
+64
+4	// *Sword Inst Physical Dmg, Cube
+70
+15
+31
+64
+4	// *Sword Inst Chi Dmg, Cube
+70
+16
+31
+64
+2	// *Sword Buff Dmg Effect, Self
+70
+72
+
+4	// *Unarmed Buff Fire Dmg Effect, Self
+68
+17
+28
+55
+4	// *Unarmed Buff Cold Dmg Effect, Self
+68
+19
+28
+55
+4	// *Unarmed Buff Poison Dmg Effect, Self
+68
+18
+28
+55
+4	// *Unarmed Buff Lightning Dmg Effect, Self
+68
+20
+28
+55
+4	// *Unarmed Buff Physical Dmg Effect, Self
+68
+15
+28
+55
+4	// *Unarmed Buff Chi Dmg Effect, Self
+68
+16
+28
+55
+4	// *Unarmed Buff Fire Dmg Eff, Self, Area
+68
+17
+32
+59
+4	// *Unarmed Buff Cold Dmg Eff, Self, Area
+68
+19
+32
+59
+4	// *Unarmed Buff Poison Dmg Eff, Self, Area
+68
+18
+32
+59
+4	// *Unarmed Buff Lightning Dmg Eff, Self, Area 
+68
+20
+32
+59
+4	// *Unarmed Buff Physical Dmg Eff, Self, Area
+68
+15
+32
+59
+4	// *Unarmed Buff Chi Dmg Eff, Self, Area
+68
+16
+32
+59
+4	// *Unarmed Inst HP healing, Range
+68
+25
+29
+56
+4	// *Unarmed Inst Chi Rejuvenating, Range
+68
+26
+29
+56
+4	// *Unarmed Buff Attack Effect, Range
+68
+23
+29
+56
+4	// *Unarmed Buff Defense Effect, Range
+68
+24
+29
+56
+4	// *Unarmed Buff Fire Dmg Effect, Range
+68
+17
+29
+56
+4	// *Unarmed Buff Cold Dmg Effect, Range
+68
+19
+29
+56
+4	// *Unarmed Buff Poison Dmg Effect, Range
+68
+18
+29
+56
+4	// *Unarmed Buff Lightning Dmg Effect, Rng
+68
+20
+29
+56
+4	// *Unarmed Buff Physical Dmg Effect, Rng
+68
+15
+29
+56
+4	// *Unarmed Buff Chi Dmg Effect, Range
+68
+16
+29
+56
+4	// *Unarmed Buff Fire Resist, Range
+68
+17
+43
+56
+4	// *Unarmed Buff Cold Resist, Range
+68
+19
+43
+56
+4	// *Unarmed Buff Poison Resist, Range
+68
+18
+43
+56
+4	// *Unarmed Buff Lightning Resist, Range
+68
+20
+43
+56
+4	// *Unarmed Buff Physical Resist, Range
+68
+15
+43
+56
+4	// *Unarmed Stun effect, Range
+68
+22
+29
+62
+4	// *Unarmed Slow effect, Range
+68
+21
+29
+62
+4	// *Unarmed Const Fire Dmg, Range
+68
+17
+36
+62
+4	// *Unarmed Const Cold Dmg, Range
+68
+19
+36
+62
+4	// *Unarmed Const Poison Dmg, Range
+68
+18
+36
+62
+4	// *Unarmed Const Lightning Dmg, Range
+68
+20
+36
+62
+4	// *Unarmed Const Physical Dmg, Range
+68
+15
+36
+62
+4	// *Unarmed Const Chi Dmg, Range
+68
+16
+36
+62
+4	// *Unarmed Reduce Attack, Range
+68
+23
+29
+62
+4	// *Unarmed Reduce Defense, Range
+68
+24
+29
+62
+4	// *Unarmed Reduce Max Chi, Range
+68
+16
+29
+62
+4	// *Unarmed Fire Vuln, Range
+68
+17
+43
+62
+4	// *Unarmed Cold Vuln, Range
+68
+19
+43
+62
+4	// *Unarmed Poison Vuln, Range
+68
+18
+43
+62
+4	// *Unarmed Lightning Vuln, Range
+68
+20
+43
+62
+4	// *Unarmed Physical Vuln, Range
+68
+15
+43
+62
+4	// *Unarmed Inst Fire Dmg, Range
+68
+17
+29
+62
+4	// *Unarmed Inst Cold Dmg, Range
+68
+19
+29
+62
+4	// *Unarmed Inst Poison Dmg, Range
+68
+18
+29
+62
+4	// *Unarmed Inst Lightning Dmg, Range
+68
+20
+29
+62
+4	// *Unarmed Inst Physical Dmg, Range
+68
+15
+29
+62
+4	// *Unarmed Inst Chi Dmg, Range
+68
+16
+29
+62
+4	// *Unarmed Inst HP healing, Range Area
+68
+25
+33
+60
+4	// *Unarmed Inst Chi Rejuvenating, Rng Ar
+68
+26
+33
+60
+4	// *Unarmed Buff Attack Effect, Rng Ar
+68
+23
+33
+60
+4	// *Unarmed Buff Defense Effect, Rng Area
+68
+24
+33
+60
+4	// *Unarmed Buff Fire Dmg Effect, Rng Ar
+68
+17
+33
+60
+4	// *Unarmed Buff Cold Dmg Effect, Rng Ar
+68
+19
+33
+60
+4	// *Unarmed Buff Poison Dmg Eff, Rng Ar
+68
+18
+33
+60
+4	// *Unarmed Buff Lightning Dmg Eff, Rng Ar
+68
+20
+33
+60
+4	// *Unarmed Buff Physical Dmg Eff, Rng Ar
+68
+15
+33
+60
+4	// *Unarmed Buff Chi Dmg Effect, Rng Area
+68
+16
+33
+60
+4	// *Unarmed Buff Fire Resist, Range Area
+68
+17
+47
+60
+4	// *Unarmed Buff Cold Resist, Range Area
+68
+19
+47
+60
+4	// *Unarmed Buff Poison Resist, Range Area
+68
+18
+47
+60
+4	// *Unarmed Buff Lightning Resist, Rng Area
+68
+20
+47
+60
+4	// *Unarmed Buff Physical Resist, Rng Area
+68
+15
+47
+60
+4	// *Unarmed Stun effect, Range Area
+68
+22
+33
+66
+4	// *Unarmed Slow effect, Range Area
+68
+21
+33
+66
+4	// *Unarmed Const Fire Dmg, Range Area
+68
+17
+40
+66
+4	// *Unarmed Const Cold Dmg, Range Area
+68
+19
+40
+66
+4	// *Unarmed Const Poison Dmg, Rng Area
+68
+18
+40
+66
+4	// *Unarmed Const Lightning Dmg, Rng Ar
+68
+20
+40
+66
+4	// *Unarmed Const Physical Dmg, Rng Area
+68
+15
+40
+66
+4	// *Unarmed Const Chi Dmg, Range Area
+68
+16
+40
+66
+4	// *Unarmed Reduce Attack, Range Area
+68
+23
+33
+66
+4	// *Unarmed Reduce Defense, Range Area
+68
+24
+33
+66
+4	// *Unarmed Reduce Max Chi, Range Area
+68
+16
+33
+66
+4	// *Unarmed Fire Vuln, Range Area
+68
+17
+47
+66
+4	// *Unarmed Cold Vuln, Range Area
+68
+19
+47
+66
+4	// *Unarmed Poison Vuln, Range Area
+68
+18
+47
+66
+4	// *Unarmed Lightning Vuln, Range Area
+68
+20
+47
+66
+4	// *Unarmed Physical Vuln, Range Area
+68
+15
+47
+66
+4	// *Unarmed Inst Fire Dmg, Range Area
+68
+17
+33
+66
+4	// *Unarmed Inst Cold Dmg, Range Area
+68
+19
+33
+66
+4	// *Unarmed Inst Poison Dmg, Range Area
+68
+18
+33
+66
+4	// *Unarmed Inst Lightning Dmg, Rng Area
+68
+20
+33
+66
+4	// *Unarmed Inst Physical Dmg, Range Area
+68
+15
+33
+66
+4	// *Unarmed Inst Chi Dmg, Range Area
+68
+16
+33
+66
+4	// *Unarmed Immune Fire
+68
+17
+49
+55
+4 	// *Unarmed Immune Cold
+68
+19
+49
+55
+4	// *Unarmed Immune Poison
+68
+18
+49
+55
+4	// *Unarmed Immune Lightning
+68
+20
+49
+55
+4	// *Unarmed Immune Physical
+68
+15
+49
+55
+4	// *Unarmed Immune ChiDmg
+68
+16
+49
+55
+4	// *Unarmed Immune Slow
+68
+21
+49
+55
+4	// *Unarmed Immune Stun
+68
+22
+49
+55
+4	// *Unarmed Inst HP healing, Self
+68
+25
+28
+55
+4	// *Unarmed Inst Chi Rejuvenation, Self
+68
+26
+28
+55
+4	// *Unarmed Buff Attack Effect, Self
+68
+23
+28
+55
+4	// *Unarmed Buff Defense Effect, Self
+68
+24
+28
+55
+4	// *Unarmed Buff Fire Resist, Self
+68
+17
+42
+55
+4	// *Unarmed Buff Cold Resist, Self
+68
+19
+42
+55
+4	// *Unarmed Buff Poison Resist, Self
+68
+18
+42
+55
+4	// *Unarmed Buff Lightning Resist, Self
+68
+20
+42
+55
+4	// *Unarmed Buff Physical Resist, Slef
+68
+15
+42
+55
+4	// *Unarmed Stun effect, Melee
+68
+22
+28
+61
+4	// *Unarmed Slow effect, Melee
+68
+21
+28
+61
+4	// *Unarmed Const Fire Dmg, Melee
+68
+17
+35
+61
+4	// *Unarmed Const Cold Dmg, Melee
+68
+19
+35
+61
+4	// *Unarmed Const Poison Dmg, Melee
+68
+18
+35
+61
+4	// *Unarmed Const Lightning Dmg, Melee
+68
+20
+35
+61
+4	// *Unarmed Const Physical Dmg, Melee
+68
+15
+35
+61
+4	// *Unarmed Const Chi Dmg, Melee
+68
+16
+35
+61
+4	// *Unarmed Debuff/Reduce Attack, Melee
+68
+23
+28
+61
+4	// *Unarmed Debuff/Reduce Defense, Melee
+68
+24
+28
+61
+4	// *Unarmed Debuff/Reduce Max Chi, Melee
+68
+16
+28
+61
+4	// *Unarmed Debuff/Fire Vuln, Melee
+68
+17
+42
+61
+4	// *Unarmed Debuff/Cold Vuln, Melee
+68
+19
+42
+61
+4	// *Unarmed Debuff/Poison Vuln, Melee
+68
+18
+42
+61
+4	// *Unarmed Debuff/Lightning Vuln, Melee
+68
+20
+42
+61
+4	// *Unarmed Debuff Physical Vuln, Melee
+68
+15
+42
+61	
+4	// *Unarmed Inst Fire Dmg, Melee
+68
+17
+28
+61
+4	// *Unarmed Inst Cold Dmg, Melee
+68
+19
+28
+61
+4	// *Unarmed Inst Poison Dmg, Melee
+68
+18
+28
+61
+4	// *Unarmed Inst Lightning Dmg, Melee
+68
+20
+28
+61
+4	// *Unarmed Inst Physical Dmg, Melee
+68
+15
+28
+61
+4	// *Unarmed Inst Chi Dmg, Melee
+68
+16
+28
+61
+4	// *Unarmed Inst HP healing, Self, Area
+68
+25
+32
+59
+4	// *Unarmed Inst Chi Rejuvenating, Self, Area
+68
+26
+32
+59
+4	// *Unarmed Buff Attack Eff, Self, Area
+68
+23
+32
+59
+4	// *Unarmed Buff Defense Eff, Self, Area
+68
+24
+32
+59
+4	// *Unarmed Buff Fire Resist, Self, Area
+68
+17
+46
+59
+4	// *Unarmed Buff Cold Resist, Self, Area
+68
+19
+46
+59
+4	// *Unarmed Buff Poison Resist, Self, Area
+68
+18
+46
+59
+4	// *Unarmed Buff Lightning Resist, Self, Area
+68
+20
+46
+59
+4	// *Unarmed Buff Physical Resist, Self, Area
+68
+15
+46
+59
+4	// *Unarmed Stun Effect, Local Area
+68
+22
+32
+65
+4	// *Unarmed SLow effect, Local Area
+68
+21
+32
+65
+4	// *Unarmed Const Fire Dmg, Local Area
+68
+17
+39
+65
+4	// *Unarmed Const Cold Dmg, Local Area
+68
+19
+39
+65
+4	// *Unarmed Const Poison Dmg, Local Area
+68
+18
+39
+65
+4	// *Unarmed Const Lightning Dmg, Local Area
+68
+20
+39
+65
+4	// *Unarmed Const Physical Dmg, Local Area
+68
+15
+39
+65
+4	// *Unarmed Const Chi Dmg, Local Area
+68
+16
+39
+65
+4	// *Unarmed Reduce Attack, Local Area
+68
+23
+32
+65
+4	// *Unarmed Reduce Defense, Local Area
+68
+24
+32
+65
+4	// *Unarmed Reduce Max Chi, Local Area
+68
+16
+32
+65
+4	// *Unarmed Fire Vuln, Local Area
+68
+17
+46
+65
+4	// *Unarmed Cold Vuln, Local Area
+68
+19
+46
+65
+4	// *Unarmed Poison Vuln, Local Area
+68
+18
+46
+65
+4	// *Unarmed Lightning Vuln, Local Area
+68
+20
+46
+65
+4	// *Unarmed Physical Vuln, Local Area
+68
+15
+46
+65
+4	// *Unarmed Inst Fire Dmg, Local Area
+68
+17
+32
+65
+4	// *Unarmed Inst Cold Dmg, Local Area
+68
+19
+32
+65
+4	// *Unarmed Inst Poison Dmg, Local Area
+68
+18
+32
+65
+4	// *Unarmed Inst Lightning Dmg, Local Area
+68
+20
+32
+65
+4	// *Unarmed Inst Physical Dmg, Local Area
+68
+15
+32
+65
+4	// *Unarmed Inst Chi Dmg, Local Area
+68
+16
+32
+65
+3	// *Unarmed Stun effect, Bolt
+68
+22
+27
+3	// *Unarmed Slow effect, Bolt
+68
+21
+27
+3	// *Unarmed Inst Fire Dmg, Bolt
+68
+17
+27
+3	// *Unarmed Inst Cold Dmg, Bolt
+68
+19
+27
+3	// *Unarmed Inst Poison Dmg, Bolt
+68
+18
+27
+3	// *Unarmed Inst Lightning Dmg, Bolt
+68
+20
+27
+3	// *Unarmed Inst Physical Dmg, Bolt
+68
+15
+27
+3	// *Unarmed Inst Chi Dmg, Bolt
+68
+16
+27
+4	// *Unarmed Stun effect, Slash
+68
+22
+30
+63
+4	// *Unarmed Slow effect, Slash
+68
+21
+30
+63
+4	// *Unarmed Inst Fire Dmg, Slash
+68
+17
+30
+63
+4	// *Unarmed Inst Cold Dmg, Slash
+68
+19
+30
+63
+4	// *Unarmed Inst Poison Dmg, Slash
+68
+18
+30
+63
+4	// *Unarmed Inst Lightning Dmg, Slash
+68
+20
+30
+63
+4	// *Unarmed Inst Physical Dmg, Slash
+68
+15
+30
+63
+4	// *Unarmed Inst Chi Dmg, Slash
+68
+16
+30
+63
+4	// *Unarmed Stun effect, Cube
+68
+22
+31
+64	
+4	// *Unarmed Slow effect, Cube
+68
+21
+31
+64
+4	// *Unarmed Inst Fire Dmg, Cube
+68
+17
+31
+64
+4	// *Unarmed Inst Cold Dmg, Cube
+68
+19
+31
+64
+4	// *Unarmed Inst Poison Dmg, Cube
+68
+18
+31
+64
+4	// *Unarmed Inst Lightning Dmg, Cube
+68
+20
+31
+64
+4	// *Unarmed Inst Physical Dmg, Cube
+68
+15
+31
+64
+4	// *Unarmed Inst Chi Dmg, Cube
+68
+16
+31
+64
+2	// *Unarmed Buff Dmg Effect, Self
+68
+72
+4	// *Bow Buff Thorn Dmg, Self
+71
+76
+28
+55
+4	// *Bow Buff Thorn Dmg,self area
+71
+76
+46
+59
+4	// *Bow Buff Thorn Dmg,Range
+71
+76
+29
+56
+4	// *Bow Buff Thorn Dmg, Range Area
+71
+76
+33
+60
+4	// *Bow Buff Drain Dmg, Self
+71
+77
+28
+55
+4	// *Bow Buff Drain Dmg, self area
+71
+77
+46
+59
+4	// *Bow Buff Drain Dmg, Range
+71
+77
+29
+56
+4	// *Bow Buff Drain Dmg, Range area
+71
+77
+33
+60
+4	// *Saber Buff Thorn Dmg, Self
+67
+76
+28
+55
+4	// *Saber Buff Thorn Dmg,self area
+67
+76
+46
+59
+4	// *Saber Buff Thorn Dmg,Range
+67
+76
+29
+56
+4	// *Saber Buff Thorn Dmg, Range Area
+67
+76
+33
+60
+4	// *Saber Buff Drain Dmg, Self
+67
+77
+28
+55
+4	// *Saber Buff Drain Dmg, self area
+67
+77
+46
+59
+4	// *Saber Buff Drain Dmg, Range
+67
+77
+29
+56
+4	// *Saber Buff Drain Dmg, Range area
+67
+77
+33
+60
+4	// *Staff Buff Thorn Dmg, Self
+69
+76
+28
+55
+4	// *Staff Buff Thorn Dmg,self area
+69
+76
+46
+59
+4	// *Staff Buff Thorn Dmg,Range
+69
+76
+29
+56
+4	// *Staff Buff Thorn Dmg, Range Area
+69
+76
+33
+60
+4	// *Staff Buff Drain Dmg, Self
+69
+77
+28
+55
+4	// *Staff Buff Drain Dmg, self area
+69
+77
+46
+59
+4	// *Staff Buff Drain Dmg, Range
+69
+77
+29
+56
+4	// *Staff Buff Drain Dmg, Range area
+69
+77
+33
+60
+4	// *Sword Buff Thorn Dmg, Self
+70
+76
+28
+55
+4	// *Sword Buff Thorn Dmg,self area
+70
+76
+46
+59
+4	// *Sword Buff Thorn Dmg,Range
+70
+76
+29
+56
+4	// *Sword Buff Thorn Dmg, Range Area
+70
+76
+33
+60
+4	// *Sword Buff Drain Dmg, Self
+70
+77
+28
+55
+4	// *Sword Buff Drain Dmg, self area
+70
+77
+46
+59
+4	// *Sword Buff Drain Dmg, Range
+70
+77
+29
+56
+4	// *Sword Buff Drain Dmg, Range area
+70
+77
+33
+60
+4	// *Unarmed Buff Thorn Dmg, Self
+68
+76
+28
+55
+4	// *Unarmed Buff Thorn Dmg,self area
+68
+76
+46
+59
+4	// *Unarmed Buff Thorn Dmg,Range
+68
+76
+29
+56
+4	// *Unarmed Buff Thorn Dmg, Range Area
+68
+76
+33
+60
+4	// *Unarmed Buff Drain Dmg, Self
+68
+77
+28
+55
+4	// *Unarmed Buff Drain Dmg, self area
+68
+77
+46
+59
+4	// *Unarmed Buff Drain Dmg, Range
+68
+77
+29
+56
+4	// *Unarmed Buff Drain Dmg, Range area
+68
+77
+33
+60
+4	// *1396 Buff Entangle Immunity,self
+71
+73
+49
+55
+4	// *1397 Buff Entangle Immunity,self area
+71
+73
+53
+59
+4	// *1398 Buff Entangle Immunity, range
+71
+73
+50
+56
+4	// *1399 Buff Entangle Immunity, range area
+71
+73
+54
+60
+4	// *1400 Buff Entangle Immunity,self
+67
+73
+49
+55
+4	// *1401 Buff Entangle Immunity,self area
+67
+73
+53
+59
+4	// *1402 Buff Entangle Immunity, range
+67
+73
+50
+56
+4	// *1403 Buff Entangle Immunity, range area
+67
+73
+54
+60
+4	// *1404 Buff Entangle Immunity,self
+69
+73
+49
+55
+4	// *1405 Buff Entangle Immunity,self area
+69
+73
+53
+59
+4	// *1406 Buff Entangle Immunity, range
+69
+73
+50
+56
+4	// *1407 Buff Entangle Immunity, range area
+69
+73
+54
+60
+4	// *1408 Buff Entangle Immunity,self
+70
+73
+49
+55
+4	// *1409 Buff Entangle Immunity,self area
+70
+73
+53
+59
+4	// *1410 Buff Entangle Immunity, range
+70
+73
+50
+56
+4	// *1411 Buff Entangle Immunity, range area
+70
+73
+50
+56
+4	// *1412 Buff Entangle Immunity,self
+68
+73
+49
+55
+4	// *1413 Buff Entangle Immunity,self area
+68
+73
+53
+59
+4	// *1414 Buff Entangle Immunity, range
+68
+73
+50
+56
+4	// *1415 Buff Entangle Immunity, range area
+68
+73
+54
+60
+3	// *1416 Constant Damage All
+72
+34
+18
+4	// *1417	Buff Confusion Immunity,self
+71			
+80			
+49			
+55			
+4	// *1418	Buff Confusion Immunity,self area
+71			
+80			
+53			
+59			
+4	// *1419	Buff Confusion Immunity, range
+71			
+80			
+50			
+56			
+4	// *1420	Buff Confusion Immunity, range area
+71			
+80			
+54			
+60			
+4	// *1421	Buff Confusion Immunity,self
+67			
+80			
+49			
+55			
+4	// *1422	Buff Confusion Immunity,self area
+67			
+80			
+53			
+59			
+4	// *1423	Buff Confusion Immunity, range
+67			
+80			
+50			
+56			
+4	// *1424	Buff Confusion Immunity, range area
+67			
+80			
+54			
+60			
+4	// *1425	Buff Confusion Immunity,self
+69			
+80			
+49			
+55			
+4	// *1426	Buff Confusion Immunity,self area
+69			
+80			
+53			
+59			
+4	// *1427	Buff Confusion Immunity, range
+69			
+80			
+50			
+56			
+4	// *1428	Buff Confusion Immunity, range area
+69			
+80			
+54			
+60			
+4	// *1429	Buff Confusion Immunity,self
+70			
+80			
+49			
+55			
+4	// *1430	Buff Confusion Immunity,self area
+70			
+80			
+53			
+59			
+4	// *1431	Buff Confusion Immunity, range
+70			
+80			
+50			
+56			
+4	// *1432	Buff Confusion Immunity, range area
+70			
+80			
+54			
+60			
+4	// *1433	Buff Confusion Immunity,self
+68			
+80			
+49			
+55			
+4	// *1434	Buff Confusion Immunity,self area
+68			
+80			
+53			
+59			
+4	// *1435	Buff Confusion Immunity, range
+68			
+80			
+50			
+56			
+4	// *1436	Buff Confusion Immunity, range area
+68			
+80			
+54			
+60			
+4	// *1437	Buff Blindness Immunity,self
+71			
+83			
+49			
+55			
+4	// *1438	Buff Blindness Immunity,self area
+71			
+83			
+53			
+59			
+4	// *1439	Buff Blindness Immunity, range
+71			
+83			
+50			
+56			
+4	// *1440	Buff Blindness Immunity, range area
+71			
+83			
+54			
+60			
+4	// *1441	Buff Blindness Immunity,self
+67			
+83			
+49			
+55			
+4	// *1442	Buff Blindness Immunity,self area
+67			
+83			
+53			
+59			
+4	// *1443	Buff Blindness Immunity, range
+67			
+83			
+50			
+56			
+4	// *1444	Buff Blindness Immunity, range area
+67			
+83			
+54			
+60			
+4	// *1445	Buff Blindness Immunity,self
+69			
+83			
+49			
+55			
+4	// *1446	Buff Blindness Immunity,self area
+69			
+83			
+53			
+59			
+4	// *1447	Buff Blindness Immunity, range
+69			
+83			
+50			
+56			
+4	// *1448	Buff Blindness Immunity, range area
+69			
+83			
+54			
+60			
+4	// *1449	Buff Blindness Immunity,self
+70			
+83			
+49			
+55			
+4	// *1450	Buff Blindness Immunity,self area
+70			
+83			
+53			
+59			
+4	// *1451	Buff Blindness Immunity, range
+70			
+83			
+50			
+56			
+4	// *1452	Buff Blindness Immunity, range area
+70			
+83			
+54			
+60			
+4	// *1453	Buff Blindness Immunity,self
+68			
+83			
+49			
+55			
+4	// *1454	Buff Blindness Immunity,self area
+68			
+83			
+53			
+59			
+4	// *1455	Buff Blindness Immunity, range
+68			
+83			
+50			
+56			
+4	// *1456	Buff Blindness Immunity, range area
+68			
+83			
+54			
+60			
+4	// *1457	Buff Knockdown Immunity,self
+71			
+82			
+49			
+55			
+4	// *1458	Buff Knockdown Immunity,self area
+71			
+82			
+53			
+59			
+4	// *1459	Buff Knockdown Immunity, range
+71			
+82			
+50			
+56			
+4	// *1460	Buff Knockdown Immunity, range area
+71			
+82			
+54			
+60			
+4	// *1461	Buff Knockdown Immunity,self
+67			
+82			
+49			
+55			
+4	// *1462	Buff Knockdown Immunity,self area
+67			
+82			
+53			
+59			
+4	// *1463	Buff Knockdown Immunity, range
+67			
+82			
+50			
+56			
+4	// *1464	Buff Knockdown Immunity, range area
+67			
+82			
+54			
+60			
+4	// *1465	Buff Knockdown Immunity,self
+69			
+82			
+49			
+55			
+4	// *1466	Buff Knockdown Immunity,self area
+69			
+82			
+53			
+59			
+4	// *1467	Buff Knockdown Immunity, range
+69			
+82			
+50			
+56			
+4	// *1468	Buff Knockdown Immunity, range area
+69			
+82			
+54			
+60			
+4	// *1469	Buff Knockdown Immunity,self
+70			
+82			
+49			
+55			
+4	// *1470	Buff Knockdown Immunity,self area
+70			
+82			
+53			
+59			
+4	// *1471	Buff Knockdown Immunity, range
+70			
+82			
+50			
+56			
+4	// *1472	Buff Knockdown Immunity, range area
+70			
+82			
+54			
+60			
+4	// *1473	Buff Knockdown Immunity,self
+68			
+82			
+49			
+55		
+4	// *1474	Buff Knockdown Immunity,self area
+68			
+82			
+53			
+59			
+4	// *1475	Buff Knockdown Immunity, range
+68
+82
+50
+56
+4	// *1476	Buff Knockdown Immunity, range area
+68
+82
+54
+60
+4	// *1477	Causes Confusion, melee	Mind's Strike
+69				
+80				
+28				
+61				
+4	// *1478	Causes Berserk, melee	Raging Fury
+67				
+81				
+28				
+61				
+4	// *1479	Causes Knockdown, range	Sweep the Feet
+71				
+82				
+29				
+61				
+4	// *1480	Causes Entangle, melee	Bind the Legs
+68				
+73				
+28				
+61				
+4	// *1481	Causes Blind, melee	Strike the Eyes
+70				
+83				
+28				
+61				
+4	// *1482	Removes confusion and Confusion Imm, range	Calm the Mind
+70				
+80				
+50				
+56				
+4	// *1483	Removes Knockdown and Knockdown Imm, range	Immovable Stance
+69				
+82				
+50				
+56				
+4	// *1484	Removes Blind and Blind Imm, range	Use the Force
+68				
+83				
+50				
+56				
+4	// *1485	Buff Perception +8, self	Eagle's Perception
+67				
+84				
+28				
+55				
+4	// *1486	Buff Strength +8, self	Bear's Strength
+68				
+85				
+28				
+55				
+4	// *1487	Buff Agility +8, self	Tiger's Agility
+71				
+86				
+28				
+55				
+4	// *1488	Buff Mind +8, self	Owl's Wisdom
+69				
+87				
+28				
+55				
+4	// *1489	Buff Constitution +8, self	Ox's Fortitude
+70				
+88				
+28				
+55				
+4	// *1490	Causes Entangle, range	Sweep the Feets, Bow
+71
+73
+29
+62
+4	// *1491	Causes Entangle, self area	Earth Destruction, Unarmed
+68
+80
+32
+65
+4	// *1492	Block Chance buff, self	Quick Steps, Bow
+71
+94
+28
+55
+3	// *1493	Cause Entangle, bolt	Staff Stance, Staff
+69			
+73			
+27			
+1	// *1494 Life Charm  (Start of 3rd iconsheet)
+450	// 
+1	// *1495 Gold Charm
+451
+1	// *1496 Death Charm
+452
+1	// *1497 Renewal Charm
+453
+1	// 1498 Change Charm
+454
+1	// 1499 Wind Charm
+455
+1	// 1500 Clan Charm
+456
+1	// 1501 Ang Pow
+457
+1	// 1502 CNY Cake (Nian Gao)
+458
+1	// 1503 Wind-dried duck
+459
+1	// 1504 Sweet and Sour Fish
+460
+1	// 1505 Chinese Sausage
+461
+1	// 1506 Lanterns Token
+462
+1	// 1507 Winter Solstice Event icon, dong
+463
+1	// 1508 Winter Solstice Event icon, Zhi
+464
+1	// 1509 Winter Solstice Event icon, Feng
+465
+1	// 1510 Winter Solstice Event icon, Shou
+466
+1	// 1511 Winter Solstice Event icon, Tuan
+467
+1	// 1512 Winter Solstice Event icon, Yuan
+468
+1	// 1513 Winter Solstice Event icon, Gan
+469
+1	// 1514 Winter Solstice Event icon, En
+470
+1	// 1515 Winter Solstice Event icon, Tang
+471
+1	// 1516 Winter Solstice Event icon, Hun
+472
+1	// 1517 Winter Solstice Event icon, Dun
+473
+1	// 1518 
+474
+1	// 1519 
+475
+1	// 1520 
+476
+1	// 1521 
+477
+1	// 1522
+478
+1	// 1523
+479
+1	// 1524
+480
+1	// 1525
+481
+1	// 1526
+482
+1	// 1527
+483
+1	// 1528
+484
+1	// 1529
+485
+1	// 1530
+486
+1	// 1531
+487
+1	// 1532
+488
+1	// 1533
+489
+1	// 1534
+490
+1	// 1535
+491
+1	// 1536
+492
+1	// 1537
+493
+1	// 1538
+494
+1	// 1539
+495
+1	// 1540
+496
+1	// 1541 CiB-ChapGohMehGudang Bing Tang Hu Lu
+497
+1	// 1542 CiB-ChapGohMehGudang Mai Ya Tang
+498
+1	// 1543 CiB-ChapGohMehGudang Rose Flower
+499
+1	// 1544 CiB-ChapGohMehGudang Orchid Flower
+500
+1	// 1545
+501
+1	// 1546
+502
+1	// 1547
+503
+1	// 1548
+504
+1	// 1549
+505
+1	// 1550
+506
+1	// 1551
+507
+1	// 1552
+508
+1	// 1553
+509
+1	// 1554
+510
+1	// 1555
+511
+1	// 1556
+512
+1	// 1557
+513
+1	// 1558
+514
+1	// 1559
+515
+1	// 1560
+516
+1	// 1561
+517
+1	// 1562
+518
+1	// 1563
+519
+1	// 1564
+520
+1	// 1565
+521
+1	// 1566
+522
+1	// 1567
+523
+1	// 1568
+524
+1	// 1569
+525
+1	// 1570
+526
+1	// 1571
+527
+1	// 1572
+528
+1	// 1573
+529
+1	// 1574
+530
+1	// 1575
+531
+1	// 1576
+532
+1	// 1577
+533
+1	// 1578
+534
+1	// 1579
+535
+1	// 1580
+536
+1	// 1581
+537
+1	// 1582
+538
+1	// 1583
+539
+1	// 1584
+540
+1	// 1585
+541
+1	// 1586
+542
+1	// 1587
+543
+1	// 1588
+544
+1	// 1589
+545
+1	// 1590
+546
+1	// 1591
+547
+1	// 1592
+548
+1	// 1593
+549
+1	// 1594
+550
+1	// 1595
+551
+1	// 1596
+552
+1	// 1597
+553
+1	// 1598
+554
+1	// 1599
+555
+1	// 1600
+556
+1	// 1601
+557
+1	// 1602
+558
+1	// 1603
+559
+1	// 1604
+560
+1	// 1605
+561
+1	// 1606
+562
+1	// 1607
+563
+1	// 1608
+564
+1	// 1609
+565
+1	// 1610
+566
+1	// 1611
+567
+1	// 1612
+568
+1	// 1613
+569
+1	// 1614
+570
+1	// 1615
+571
+1	// 1616
+572
+1	// 1617
+573
+1	// 1618
+574
+1	// 1619
+575
+1	// 1620
+576
+1	// 1621
+577
+1	// 1622
+578
+1	// 1623
+579
+1	// 1624
+580
+1	// 1625
+581
+1	// 1626
+582
+1	// 1627
+583
+1	// 1628
+584
+1	// 1629
+585
+1	// 1630
+586
+1	// 1631
+587
+1	// 1632
+588
+1	// 1633
+589
+1	// 1634
+590
+1	// 1635
+591
+1	// 1636
+592
+1	// 1637
+593
+1	// 1638
+594
+1	// 1639
+595
+1	// 1640
+596
+1	// 1641
+597
+1	// 1642
+598
+1	// 1643
+599
+1	// 1644
+600
+1	// 1645
+601
+1	// 1646
+602
+1	// 1647
+603
+1	// 1648
+604
+1	// 1649
+605
+1	// 1650
+606
+1	// 1651
+607
+1	// 1652
+608
+1	// 1653
+609
+1	// 1654
+610
+1	// 1655
+611
+1	// 1656
+612
+1	// 1657
+613
+1	// 1658
+614
+1	// 1659
+615
+1	// 1660
+616
+1	// 1661
+617
+1	// 1662
+618
+1	// 1663
+619
+1	// 1664
+620
+1	// 1665
+621
+1	// 1666
+622
+1	// 1667
+623
+1	// 1668
+624
+1	// 1669
+625
+1	// 1670
+626
+1	// 1671
+627
+1	// 1672
+628
+1	// 1673
+629
+1	// 1674
+630
+1	// 1675
+631
+1	// 1676
+632
+1	// 1677
+633
+1	// 1678
+634
+1	// 1679
+635
+1	// 1680
+636
+1	// 1681
+637
+1	// 1682
+638
+1	// 1683
+639
+1	// 1684
+640
+1	// 1685
+641
+1	// 1686
+642
+1	// 1687
+643
+1	// 1688
+644
+1	// 1689
+645
+1	// 1690
+646
+1	// 1691
+647
+1	// 1692
+648
+1	// 1693
+649
+1	// 1694
+650
+1	// 1695
+651
+1	// 1696
+652
+1	// 1697
+653
+1	// 1698
+654
+1	// 1699
+655
+1	// 1700
+656
+1	// 1701
+657
+1	// 1702
+658
+1	// 1703
+659
+1	// 1704
+660
+1	// 1705
+661
+1	// 1706
+662
+1	// 1707
+663
+1	// 1708
+664
+1	// 1709
+665
+1	// 1710
+666
+1	// 1711
+667
+1	// 1712
+668
+1	// 1713
+669
+1	// 1714
+670
+1	// 1715
+671
+1	// 1716
+672
+1	// 1717
+673
+1	// 1718
+674
+4	// 1719	Buff Dragon's Haste +1atk spd
+67
+49
+55
+92
+4	// 1720	Atk Frost Bite
+70
+28
+61
+17
+4	// 1721	Atk ETV
+68
+28
+61
+15
+4	// 1722	Buff SSB
+67
+49
+55
+17

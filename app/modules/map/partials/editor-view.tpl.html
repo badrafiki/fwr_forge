@@ -1,0 +1,206 @@
+<!-- Editor view for maps.. Should be ng-include'd and will share scope with parent controller -->
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Maps Editor</h4>
+      <hr>
+    </div>
+  </div>
+
+  <div class="row">
+    
+    <div class="col-md-7">
+      <form class="form-horizontal" role="form" id="editorForm" ng-submit="closeEditor()">
+        <!-- Map Type -->
+        <div class="form-group well" ng-show="EditorView.mode == EditorView.MODES.CREATE">
+          <label class="col-sm-2 control-label">Type</label>
+          <div class="col-sm-10">
+            <select class="form-control" ng-model="selected.type">
+              <option value="0">Item</option>
+              <option value="2">Power</option>
+            </select>
+          </div>
+        </div>
+        <!-- Id -->
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Id</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" ng-model="selected.id">
+          </div>
+        </div>
+		<!-- English -->
+		<div class="col-md-10 col-md-offset-2">
+			<h5><small>English</small></h5>
+		</div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.english.name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Snippet</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.english.snippet">
+          </div>
+        </div>
+		<!-- END English -->
+		<!-- Malaysian -->
+		<div class="col-md-10 col-md-offset-2">
+			<h5><small>Malaysian</small></h5>
+		</div>
+		<div class="form-group">
+          <label class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.malaysian.name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Snippet</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.malaysian.snippet">
+          </div>
+        </div>
+		<!-- END Malaysian -->
+		<!-- Trad Chinese -->
+		<div class="col-md-10 col-md-offset-2">
+			<h5><small>Traditional Chinese</small></h5>
+		</div>
+		<div class="form-group">
+          <label class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.tradChinese.name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Snippet</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.tradChinese.snippet">
+          </div>
+        </div>
+		<!-- END TradChinese -->
+		<!-- Simp Chinese -->
+		<div class="col-md-10 col-md-offset-2">
+			<h5><small>Simplified Chinese</small></h5>
+		</div>
+		<div class="form-group">
+          <label class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.simpChinese.name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Snippet</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="selected.simpChinese.snippet">
+          </div>
+        </div>
+		<!-- END SimpChinese -->
+		<hr>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Rarity</label>
+          <div class="col-sm-10">
+            <select class="form-control" ng-model="selected.rarity" ng-class="itemColors[selected.rarity]">
+              <option value="0" ng-class="itemColors[0]">Common</option>
+              <option value="1" ng-class="itemColors[1]">Uncommon</option>
+              <option value="2" ng-class="itemColors[2]">Very Rare</option>
+              <option value="3" ng-class="itemColors[3]">Rare</option>
+              <option value="4" ng-class="itemColors[4]">Set</option>
+              <option value="5" ng-class="itemColors[5]">Legendary</option>
+              <option value="6" ng-class="itemColors[6]">Quest</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Icon</label>
+          <div class="col-sm-1">
+            <game-icon icon="selected.icon" icon-tooltip="selected.icon.id"></game-icon>
+          </div>
+          <div class="col-sm-9">
+            <button class="btn btn-info" type="button" ng-click="IconSelector.show()" data-loading-text="Loading...">Choose...</button>
+          </div>
+        </div>
+
+        <!-- Model input for weapons -->
+        <div class="form-group" ng-show="isWeapon()">
+          <label class="col-sm-2 control-label">Model Id's</label>
+          <div class="col-sm-5">
+            <input class="form-control" ng-model="selected.unknown1">            
+          </div>
+          <div class="col-sm-5">
+            <input class="form-control" ng-model="selected.unknown2">
+          </div>
+          <div class="col-sm-10 col-sm-offset-2">
+          	<p class="help-block">Each weapon can use up to two different model Id's. They will both be loaded when the weapon is equipped. For example, you can place a weapon in each hand or attach a mask with the weapon.</p>
+          </div>  
+        </div>
+
+        <!-- Additional inputs for powers -->        
+        <div class="form-group" ng-show="selected.type == 2">
+          <label class="col-sm-2 control-label">Settings</label>
+          <div class="col-sm-10">
+            <select class="form-control" ng-model="selected.unknown2">
+              <option value="0">Buff: Self or full AoE</option>
+              <option value="1">Attack: Hostile</option>
+              <option value="2">Targeted: For friendly buff or attack AoE that centers effect on target</option>
+            </select>
+            <p class="help-block">Settings description may not be correct. Please test and report findings.</p>
+          </div>
+        </div>
+        <div class="form-group" ng-show="selected.type == 2">
+          <label class="col-sm-2 control-label"></label>
+          <div class="col-sm-10">
+            <input type="checkbox" ng-model="selected.unknown1" ng-checked="selected.unknown1 == 1" ng-true-value="1" ng-false-value="0">&nbsp;Require Target
+            <p class="help-block">Should client verify target before sending cast request to server? Doing client side check first will save bandwidth.</p>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Description</label>
+          <div class="col-sm-10">
+            <description-editor map="selected"></description-editor>
+          </div>
+        </div>
+
+        <div class="form-group well">
+          <div class="col-sm-offset-8 col-sm-4">
+            <div class="pull-right">
+              <button class="btn btn-primary" type="submit">Done</button>
+              <button class="btn btn-default" type="button" ng-click="EditorView.hide()" ng-show="EditorView.mode == EditorView.MODES.CREATE">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Preview Panel -->
+    <div class="col-md-5">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <strong>Preview</strong>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-1">
+              <game-icon icon="selected.icon"></game-icon>
+            </div>
+            <div class="col-md-11">
+              <span ng-class="itemColors[selected.rarity]">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>{{selected.english.name}}</strong>
+                  </li>
+                  <li ng-repeat="descriptionLine in selected.description.readable track by $index">{{descriptionLine}}</li>
+                  <li ng-show="selected.english.snippet.length > 0">{{selected.english.snippet}}</li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>

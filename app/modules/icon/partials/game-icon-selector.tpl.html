@@ -1,0 +1,12 @@
+<div class="modal-header">
+  <button type="button" class="close" ng-click="dismiss()">
+    <span>&times;</span>
+  </button>
+  <h4 class="modal-title">Select Icon</h4>
+</div>
+<div class="modal-body">
+  <game-icon class="hand-cursor" ng-repeat="icon in icons" icon="icon" icon-tooltip="icon.id" ng-click="select(icon)"></game-icon>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="dismiss()">Close</button>
+</div>

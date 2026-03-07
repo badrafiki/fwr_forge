@@ -1,0 +1,188 @@
+<div class="container" ng-hide="editorView">
+
+  <div class="row" style="padding-bottom: 5px;">
+
+    <!-- Add new Map button -->
+    <div class="col-md-8">
+      <button class="btn btn-default" title="Add new map" ng-click="create()" ng-disabled="{{maps.length == 0}}">
+        <span class="glyphicon glyphicon-plus"></span>&nbspAdd
+      </button>
+    </div>
+
+    <div class="col-md-4">
+      <div class="input-group">
+        <span class="input-group-addon">
+          <span class="glyphicon glyphicon-search"></span>
+        </span>
+		<input type="text" class="form-control" ng-model="query">
+        <span class="input-group-btn">
+          <button class="btn btn-danger" type="button" ng-click="query = ''" ng-show="query.length">
+            <span class="glyphicon glyphicon-remove"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <strong>Filter:&nbsp</strong>
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-default active" ng-click="filterType=-1">
+          <input type="radio" ng-model="filterType" checked>All
+        </label>
+        <label class="btn btn-default" ng-click="filterType=0">
+          <input type="radio" ng-model="filterType" checked>Items
+        </label>
+        <label class="btn btn-default" ng-click="filterType=1">
+          <input type="radio" ng-model="filterType">Stances
+        </label>
+        <label class="btn btn-default" ng-click="filterType=2; filterPowerType=0">
+          <input type="radio" ng-model="filterType">Powers
+        </label>
+        <label class="btn btn-default" ng-click="filterType=3">
+          <input type="radio" ng-model="filterType">Skills
+        </label>
+        <label class="btn btn-default" ng-click="filterType=4">
+          <input type="radio" ng-model="filterType">Effects
+        </label>
+        <label class="btn btn-default" ng-click="filterType=5">
+          <input type="radio" ng-model="filterType">Unknown
+        </label>
+        <label class="btn btn-default" ng-click="filterType=6">
+          <input type="radio" ng-model="filterType">Clan Upgrades
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" ng-show="filterType==0 || filterType==2" style="margin-top: 10px;">
+    <div class="col-md-8">
+
+      <div class="btn-group" data-toggle="buttons" ng-show="filterType==0">
+        <label class="btn btn-default btn-sm active" ng-click="filterRarity=-1">
+          <input type="radio" ng-model="filterRarity" checked>All
+        </label>
+        <label class="btn btn-default btn-sm" ng-click="filterRarity=0">
+          <input type="radio" ng-model="filterRarity" checked>Common
+        </label>
+        <label class="btn btn-default btn-sm" ng-click="filterRarity=1">
+          <input type="radio" ng-model="filterRarity">
+          <span class="item-uncommon">Uncommon</span>
+        </label>
+        <label class="btn btn-default btn-sm" ng-click="filterRarity=2">
+          <input type="radio" ng-model="filterRarity">
+          <span class="item-very-rare">Very Rare</span>
+        </label>
+        <label class="btn btn-default btn-sm" ng-click="filterRarity=3">
+          <input type="radio" ng-model="filterRarity">
+          <span class="item-rare">Rare</span>
+        </label>
+        <label class="btn btn-default btn-sm" ng-click="filterRarity=4">
+          <input type="radio" ng-model="filterRarity">
+          <span class="item-set">Set</span>
+        </label>
+        <label class="btn btn-default btn-sm" ng-click="filterRarity=5">
+          <input type="radio" ng-model="filterRarity">
+          <span class="item-legendary">Legendary</span>
+        </label>
+        <label class="btn btn-default btn-sm" ng-click="filterRarity=6">
+          <input type="radio" ng-model="filterRarity">
+          <span class="item-quest">Quest</span>
+        </label>
+      </div>
+
+      <div class="btn-group" data-toggle="buttons" ng-show="filterType==2">
+        <label ng-class="{active: filterPowerType==-1}" class="btn btn-default btn-sm" ng-click="filterPowerType=-1">
+          <input type="radio" ng-model="filterPowerType" checked>All
+        </label>
+        <label ng-class="{active: filterPowerType==0}" class="btn btn-default btn-sm" ng-click="filterPowerType=0">
+          <input type="radio" ng-model="filterPowerType" checked>Player
+        </label>
+        <label ng-class="{active: filterPowerType==1}" class="btn btn-default btn-sm" ng-click="filterPowerType=1">
+          <input type="radio" ng-model="filterPowerType">Mobs
+        </label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-5">
+      <h5 class="text-align-left">
+        <em>Displaying {{filtered.length.toLocaleString()}} of {{maps.length.toLocaleString()}} maps</em>
+      </h5>
+    </div>
+    <div class="col-md-7">
+      <h5 class="text-right">
+        <small>
+          <em>For performance reasons, display is limited to max
+            <input type="number" name="input" ng-model="limit">&nbspmaps.
+          </em>
+          [ <a href="" ng-click="limit = maps.length">Show all</a> ] [ <a href="" ng-click="limit = defaultLimit">Reset</a> ]
+        </small>
+      </h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <accordion close-others="true">
+        <accordion-group ng-repeat="map in $parent.filtered = (maps | filter:filterOnFields | filter:filterOnMapType | filter:filterOnItemRarity | filter:filterOnPowerType | limitTo: limit)">
+          <accordion-heading>
+            <div class="row">
+              <div class="col-sm-1">{{map.id}}</div>
+              <div class="col-sm-3">
+                <span ng-class="itemColors[map.rarity]">{{map.english.name}}</span>
+              </div>
+              <div class="col-sm-8">
+                <span ng-class="itemColors[map.rarity]">{{map.english.snippet}}</span>
+              </div>
+            </div>
+          </accordion-heading>
+          <div class="row">
+            <div class="col-md-1">
+              <game-icon icon="map.icon"></game-icon>
+            </div>
+            <div class="col-md-9">
+              <span ng-class="itemColors[map.rarity]">
+                <ul class="list-unstyled">
+                  <li ng-repeat="descriptionLine in map.description.readable track by $index">{{descriptionLine}}</li>
+                  <li>{{map.english.snippet}}</li>
+                </ul>
+              </span>
+            </div>
+            <div class="col-md-2">
+              <span class="pull-right">
+                <button class="btn btn-default" ng-click="edit(map)">
+                  <span class="glyphicon glyphicon-pencil"></span>
+                </button>
+                <button class="btn btn-default" ng-click="delete(map)">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </accordion-group>
+      </accordion>
+    </div>
+  </div>
+
+  <div class="row" ng-show="maps.length > 0 && limit != maps.length && filtered.length >= limit" ng-click="limit = limit * 2">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-default btn-block" style="border-radius: 0px; background-color: #f5f5f5;">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        <span style="padding-left:40px; padding-right:40px;">
+          <small>
+            <strong>LOAD MORE</strong>
+          </small>
+        </span>
+        <span class="glyphicon glyphicon-chevron-down"></span>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<div ng-include src="'modules/map/partials/editor-view.tpl.html'" ng-show="editorView"></div>

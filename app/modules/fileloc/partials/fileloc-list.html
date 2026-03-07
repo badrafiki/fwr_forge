@@ -1,0 +1,39 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <import-button class="btn btn-sm btn-info" callback-fn="import(file)">
+        Import
+      </import-button>
+      <export-button data="export()" class="btn btn-sm btn-info" filename="fileloc.new.dir" ng-disabled="!fileLocsLoaded">
+        Export
+      </export-button>
+      <span class="pull-right">
+        <button class="btn btn-danger" ng-click="remove()" ng-disabled="!fileLocsLoaded">Remove {{files[selected]}}</button>
+      </span>
+    </div>
+  </div>
+
+  <div class="row" style="padding-top: 5px;">
+    <div class="col-md-12">
+      <select class="form-control" ng-model="selected" size="25" optional>
+        <option ng-repeat="file in (files | limitTo: 14000) track by $index" value="{{$index}}">{{file}}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row" style="padding-top: 5px;">
+    <div class="col-md-12">
+      <form class="form-horizontal" ng-submit="add(newFile)">
+        <div class="row">
+          <div class="col-md-11">
+            <textarea class="form-control" placeholder=".\path\to\file.txt  - Multiple entries can be put on seperate lines" ng-model="newFile"></textarea>
+          </div>
+          <div class="col-md-1">
+            <button class="btn btn-primary form-control" type="submit" ng-disabled="!newFile || !fileLocsLoaded">Add</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

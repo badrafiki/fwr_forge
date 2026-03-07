@@ -1,0 +1,74 @@
+/* Angular UI Bootstrap Styling */
+
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+html { 
+  overflow-y: scroll; 
+}
+/* My app Styling */
+.panel-white {
+    background-color: white;
+    border-color: #ddd;
+}
+.panel-heading-hover:hover {
+    background-color: #f5f5f5;
+}
+.panel-shadowless {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.panel-group .panel-square {
+    border-radius: 0px;
+}
+.panel-group .panel-square+.panel-square {
+    border-top: 0px;
+    margin-top: 0px;
+}
+.panel-title-default {
+    font-size: inherit;
+}
+img.logo {
+    width: 20px;
+    height: 20px;
+    margin-top: -7px;
+    margin-right: 5px;
+}
+.modal-header-blue {
+    color: #fff;
+    background-color: #428bca;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.filedrop {
+    height: 165px;
+}
+.item-common {
+    color: black;
+}
+.item-uncommon {
+    color: blue;
+}
+.item-very-rare {
+    color: darkred;
+}
+.item-rare {
+    color: red;
+}
+.item-set {
+    color: lime;
+}
+.item-quest {
+    color: orange;
+}
+.item-legendary {
+    color: purple;
+}
+.hand-cursor {
+    cursor: pointer;
+}
+
+#map-canvas {
+    height: 512px;
+    width: 512px;
+}

@@ -1,0 +1,38 @@
+<div class="modal-header modal-header-blue">
+  <button type="button" class="close" data-dismiss="modal" ng-click="close()">
+    <span aria-hidden="true">&times;</span>
+    <span class="sr-only">Close</span>
+  </button>
+  <h4 class="modal-title">
+    </span>Create String</h4>
+</div>
+
+<div class="modal-body">
+
+  <div class="alert alert-warning" role="alert">
+    <strong>Notice!</strong>
+    &nbsp String parameters are not supported. English string will be used for all languages.
+  </div>
+
+  <form class="form-horizontal" name="newform" novalidate>
+    <div class="form-group" class="has-success">
+      <label for="inputId" class="col-sm-2 control-label">Id</label>
+      <div class="col-sm-4">
+        <input class="form-control" id="inputId" name="id" type="number" ng-model="newString.id">
+      </div>
+    </div>
+    <div class="form-group" ng-class="{'has-error': newform.english.$dirty && newform.english.$error.required, 'has-success': newform.english.$dirty && newform.english.$valid}">
+      <label for="inputEnglish" class="col-sm-2 control-label">English</label>
+      <div class="col-sm-9">
+        <textarea class="form-control" id="inputEnglish" name="english" ng-model="newString.english.string" required></textarea>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="close()">Close</button>
+  <button type="button" class="btn btn-warning" data-dismiss="modal" ng-click="clear(newform)">Clear</button>
+  <button type="button" class="btn btn-primary" ng-disabled="newform.$invalid" ng-click="add(newString)">Add</button>
+</div>

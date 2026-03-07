@@ -1,0 +1,40 @@
+<div class="container" ng-hide="Editor.display">
+
+  <div class="row">
+    <!-- Add new, button -->
+    <div class="col-md-8">
+      <button class="btn btn-default" title="Add new set" ng-click="create()" ng-disabled="{{sets.length == 0}}">
+        <span class="glyphicon glyphicon-plus"></span>&nbspAdd
+      </button>
+    </div>
+  </div>
+
+  <div class="row" style="padding-top: 10px;">
+    <div class="col-md-12">
+      <div class="panel panel-default" ng-repeat="set in sets">
+        <div class="panel-body">
+          <div class="col-sm-10">
+            <dl class="dl-horizontal">
+              <dt>Set</dt>
+              <dd>{{set.id}}</dd>
+              <dt>Description</dt>
+              <dd ng-repeat="descriptor in set.description.readable">{{descriptor}}</dd>
+            </dl>
+          </div>
+          <div class="col-sm-2">
+            <span class="pull-right">
+              <button class="btn btn-default" ng-click="edit(set)">
+                <span class="glyphicon glyphicon-pencil"></span>
+              </button>
+              <button class="btn btn-default" ng-click="delete(set)">
+                <span class="glyphicon glyphicon-trash"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ng-include src="'modules/set/partials/editor-view.tpl.html'" ng-show="Editor.display"></div>

@@ -1,0 +1,114 @@
+<!-- Scroll to bottom on openinig -->
+<a id="descriptionEditor"></a>
+<!-- Descriptor selection box -->
+<div class="row">
+  <div class="col-sm-12">
+    <select optional class="form-control" data-ng-attr-size="{{map.description.readable.length}}" ng-model="selectedDescriptor">
+      <option ng-repeat="descriptor in map.description.readable track by $index" value="{{$index}}">{{descriptor}}</option>
+    </select>
+  </div>
+</div>
+
+<!-- Control buttons -->
+<div class="row" ng-show="is(STATES.DEFAULT)" style="padding-top: 5px;">
+  <div class="col-sm-12">
+    <button class="btn btn-default btn-sm" type="button" title="Move up" ng-click="moveUp()">
+      <span class="glyphicon glyphicon-arrow-up"></span>
+    </button>
+    <button class="btn btn-default btn-sm" type="button" title="Move down" ng-click="moveDown()">
+      <span class="glyphicon glyphicon-arrow-down"></span>
+    </button>
+    <button class="btn btn-default btn-sm" type="button" ng-click="changeState(STATES.REMOVING)">Remove</button>
+    <button class="btn btn-default btn-sm" type="button" ng-click="changeState(STATES.ADDING)">Add</button>
+  </div>
+</div>
+
+<!-- Status Message -->
+<div class="row" style="padding-top: 5px;" ng-show="!is(STATES.DEFAULT)">
+  <div class="col-sm-12">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h4 class="panel-title">Add Descriptor</h4></div>
+      <div class="panel-body">
+        <!-- Search for a string to add, box -->
+        <div class="row" ng-show="is(STATES.ADDING)">
+          <div class="col-sm-12">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <span class="glyphicon glyphicon-search"></span>
+              </span>
+              <input type="text" class="form-control" ng-model="stringQuery" placeholder="Search for string">
+              <span class="input-group-btn" ng-show="stringQuery.length">
+                <button class="btn btn-danger" type="button" ng-click="stringQuery = ''">
+                  <span class="glyphicon glyphicon-remove"></span>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-12" style="padding-top: 2px;">
+            <select optional class="form-control" size="8" ng-model="selectedBase" ng-init="selectedBase = -1">
+              <option value="-1"></option>
+              <option ng-repeat="string in filtered = (strings | filter: stringQuery | filter: stringSearchLimit | limitTo: 25)" ng-value="$index" ng-dblclick="selectBase(string.id)">
+                {{string.english.string}}
+              </option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row" ng-show="is(STATES.STRING_SELECTED)">
+          <div class="col-sm-12">
+            <mark>{{newDescriptor.readable}}</mark>
+          </div>
+        </div>
+
+        <!-- First Parameter -->
+        <div class="row" ng-show="is(STATES.STRING_SELECTED)" ng-repeat="i in [0, 1]" style="padding-top: 5px;">
+          <!-- Value Selector -->
+          <div class="col-sm-12" ng-show="newDescriptor.paramTypes[i] == PARAM_TYPES.VAL">
+            <input type="text" class="form-control" ng-model="newDescriptor.raw[i+1]" ng-change="liveParse()">
+          </div>
+          <!-- Stance Selector -->
+          <div class="col-sm-12" ng-show="newDescriptor.paramTypes[i] == PARAM_TYPES.STANCE" style="padding-top: 5px;">
+            <select class="form-control" ng-model="newDescriptor.raw[i+1]" ng-change="liveParse()">
+              <option value="0">-- SELECT STANCE --</option>
+              <option value="1">Bow Stance</option>
+              <option value="2">Saber Stance</option>
+              <option value="3">Staff Stance</option>
+              <option value="4">Sword Stance</option>
+              <option value="5">Unarmed Stance</option>
+            </select>
+          </div>
+          <!-- String Selector -->
+          <div class="col-sm-12" ng-show="newDescriptor.paramTypes[i] == PARAM_TYPES.STRING" style="padding-top: 5px;">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <span class="glyphicon glyphicon-search"></span>
+              </span>
+              <input type="text" class="form-control" ng-model="paramStringQuery[i]" placeholder="Search for string parameter">
+              <span class="input-group-btn" ng-show="paramStringQuery[i].length">
+                <button class="btn btn-danger" type="button" ng-click="paramStringQuery[i] = ''">
+                  <span class="glyphicon glyphicon-remove"></span>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="col-sm-12" ng-show="newDescriptor.paramTypes[i] == PARAM_TYPES.STRING" style="padding-top: 2px;">
+            <select optional class="form-control" size="8" ng-model="newDescriptor.raw[i+1]" ng-change="liveParse()">
+              <option ng-repeat="string in (strings | filter: paramStringQuery[i] | filter: stringSearchLimit | limitTo: 25)" value="{{string.id}}">
+                {{string.english.string}}
+              </option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Cancel adding -->
+        <div class="row" ng-show="is(STATES.ADDING) || is(STATES.STRING_SELECTED)" style="padding-top: 5px;">
+          <div class="col-sm-12">
+            <button class="btn btn-info btn-sm" type="button" value="Add" ng-click="changeState(STATES.ADD)" ng-show="is(STATES.STRING_SELECTED)">Add</button>
+            <button class="btn btn-default btn-sm" type="button" ng-click="changeState(STATES.DEFAULT)">Cancel</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

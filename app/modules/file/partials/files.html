@@ -1,0 +1,127 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>What's Forge?</h2>
+          <p>Forge is a tool created to edit client data for Five Clans Online. Forge allows you to edit item tooltip descriptions, item set descriptions, add display strings, and update the file manifest for loading game assets. It was created by the FCO team to ease the painstaking process of patch development.</p>
+          <p>To get started, just load in the necessary client files below and then select the appropriate tab above.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">File Status</div>
+        <ul class="list-group">
+
+          <li class="list-group-item">
+            string.bin
+            <span class="pull-right">
+              <span class="label label-danger" ng-show="!stringsLoaded">
+                <span class="glyphicon glyphicon-remove"></span>&nbsp;NOT LOADED
+              </span>
+            </span>
+            <span class="pull-right" ng-show="stringsLoaded">
+              <div class="btn-group">
+                <button type="button" class="btn btn-success btn-xs dropdown-toggle" data-toggle="dropdown">
+                  <span class="glyphicon glyphicon-export"></span>&nbsp;Export <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportStrings()" filename="string.new.bin">Export Game Format (.bin)</export-button></li>
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportStringsTSV()" filename="strings.tsv">Export Tab Delimited (.tsv)</export-button></li>
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportStringsJSON()" filename="strings.json">Export as JSON (.json)</export-button></li>
+                </ul>
+              </div>
+            </span>
+          </li>
+
+          <li class="list-group-item">
+            map.bin
+            <span class="pull-right">
+              <span class="label label-danger" ng-show="!mapsLoaded">
+                <span class="glyphicon glyphicon-remove"></span>&nbsp;NOT LOADED
+              </span>
+            </span>
+            <span class="pull-right" ng-show="mapsLoaded">
+              <div class="btn-group">
+                <button type="button" class="btn btn-success btn-xs dropdown-toggle" data-toggle="dropdown">
+                  <span class="glyphicon glyphicon-export"></span>&nbsp;Export <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportMaps()" filename="map.new.bin">Export Game Format (.bin)</export-button></li>
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportMapsTSV('items')" filename="items.tsv">Export Items (.tsv)</export-button></li>
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportMapsJSON('items')" filename="items.json">Export Items (.json)</export-button></li>
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportMapsTSV('powers')" filename="powers.tsv">Export Powers (.tsv)</export-button></li>
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportMapsJSON('powers')" filename="powers.json">Export Powers (.json)</export-button></li>
+                </ul>
+              </div>
+            </span>
+          </li>
+
+          <li class="list-group-item">
+            viconlist.dat
+            <span class="pull-right">
+              <span class="label label-danger" ng-show="!iconsLoaded">
+                <span class="glyphicon glyphicon-remove"></span>&nbsp;NOT LOADED
+              </span>
+            </span>
+            <span class="pull-right" ng-show="iconsLoaded">
+              <export-button class="btn btn-success btn-xs" data="exportIcons()" filename="viconlist.new.dat">
+                Export
+              </export-button>
+            </span>
+          </li>
+
+          <li class="list-group-item">
+            fileloc.dir
+            <span class="pull-right">
+              <span class="label label-danger" ng-show="!fileLocsLoaded">
+                <span class="glyphicon glyphicon-remove"></span>&nbsp;NOT LOADED
+              </span>
+            </span>
+            <span class="pull-right" ng-show="fileLocsLoaded">
+              <export-button class="btn btn-success btn-xs" data="exportFileLocs()" filename="fileloc.new.dir">
+                Export
+              </export-button>
+            </span>
+          </li>
+
+          <li class="list-group-item">
+            setitem.bin
+            <span class="pull-right">
+              <span class="label label-danger" ng-show="!setsLoaded">
+                <span class="glyphicon glyphicon-remove"></span>&nbsp;NOT LOADED
+              </span>
+            </span>
+            <span class="pull-right" ng-show="setsLoaded">
+              <div class="btn-group">
+                <button type="button" class="btn btn-success btn-xs dropdown-toggle" data-toggle="dropdown">
+                  <span class="glyphicon glyphicon-export"></span>&nbsp;Export <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportSets()" filename="setitem.new.bin">Export Game Format (.bin)</export-button></li>
+                  <li><export-button class="btn btn-default btn-xs" style="border: 0" data="exportSetsTSV()" filename="setitem.tsv">Export Tab Delimited (.tsv)</export-button></li>
+                </ul>
+              </div>
+            </span>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <div class="well well-lg text-center filedrop" dropzone dropzone-fn="import(files)">
+        <div style="color: #777; padding-top: 10px; padding-bottom: 10px">DROP HERE</div>
+        <import-button class="btn btn-sm btn-primary" callback-fn="import(file)">BROWSE...</import-button>
+        <button class="btn btn-default" ng-click="loadLatestFiles()">Load from server...</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>

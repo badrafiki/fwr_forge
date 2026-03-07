@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <import-button class="btn btn-sm btn-info" callback-fn="import(file, startIndex)">
+        Import
+      </import-button>
+      <!--
+      <export-button data="export()" class="btn btn-sm btn-info" filename="spawn-points.tsv" ng-disabled="!spawnsLoaded">
+        Export
+      </export-button>
+      -->
+      </div>
+  </div>
+
+  <!--
+  <div class="row" style="padding-top: 5px;">
+    <div class="col-md-12">
+      <select class="form-control" ng-model="selected" size="25" optional>
+        <option ng-repeat="spawnPoint in (spawnPoints | limitTo: 14000) track by $index" value="{{$index}}">{{spawnPoint}}</option>
+      </select>
+    </div>
+  </div>
+  -->
+
+  <div class="row" style="padding-top: 5px;">
+  	<div class="col-md-12">
+  		<div id="map-canvas"></div>
+  	</div>
+  </div>
+</div>
